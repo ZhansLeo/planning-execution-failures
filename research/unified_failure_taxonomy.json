@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "purpose": "Cross-benchmark conceptual alignment without pooling incompatible evaluator counts.",
+  "assignment_policy": "Use the earliest supported primary failure in the planning-execution chain; retain later or overlapping observations as secondary flags.",
+  "layers": [
+    {
+      "id": "L1_natural_language_understanding",
+      "name": "Natural-language understanding",
+      "operational_definition": "The system extracts a user fact, intent, scope, or hard/soft status that is contradicted by the visible query.",
+      "exclude_when": "The query was understood correctly but the normalized representation omitted it; assign L2.",
+      "observable_signals": ["incorrect traveler count/duration/budget", "hard preference softened or soft preference hardened", "source text not locatable in visible query"],
+      "travelplanner_mapping": ["No standalone primary count; hard-constraint failures may contain understanding and execution causes."],
+      "chinatravel_mapping": ["planner_source_text_mismatch", "constraint_understanding_failure"],
+      "candidate_mechanisms": ["source-span alignment", "typed hard/soft extraction", "oracle-free representation audit"]
+    },
+    {
+      "id": "L2_constraint_representation",
+      "name": "Constraint representation",
+      "operational_definition": "The system's structured state omits, duplicates, invents, or semantically changes a correctly understood requirement before execution.",
+      "exclude_when": "The representation is correct but no supporting information is collected; assign L3.",
+      "observable_signals": ["missing retrieval-checklist category", "Planner injects a concrete unobserved entity", "inconsistent dates/nights in blueprint", "constraint has no stable ID or ledger entry"],
+      "travelplanner_mapping": ["planner-audit omissions", "evidence_coverage when traceable to blueprint omission"],
+      "chinatravel_mapping": ["retrieval_checklist_incomplete", "planner_entity_violation"],
+      "candidate_mechanisms": ["typed constraint ledger", "entity-free planner schema", "deterministic representation validation"]
+    },
+    {
+      "id": "L3_information_acquisition",
+      "name": "Information acquisition",
+      "operational_definition": "A required information category, city, route, date, page, or entity is never successfully observed before finalization or exhaustion.",
+      "exclude_when": "The evidence was observed but ignored or copied incorrectly; assign L6.",
+      "observable_signals": ["required tool never called", "wrong parameters or repeated empty result", "pagination not followed", "sandbox-valid entity used without prior retrieval"],
+      "travelplanner_mapping": ["tool_execution/acquisition", "evidence_coverage"],
+      "chinatravel_mapping": ["information_acquisition_missing", "sandbox_valid_but_not_retrieved"],
+      "candidate_mechanisms": ["evidence requirements", "query repair", "coverage-aware retrieval"]
+    },
+    {
+      "id": "L4_agent_control_stopping",
+      "name": "Agent control and stopping",
+      "operational_definition": "The loop fails to finish within its budget, repeats without progress, exceeds context, or finalizes before the minimum evidence state is reached.",
+      "exclude_when": "A schema-valid, sufficiently evidenced candidate is produced but violates constraints; assign L8.",
+      "observable_signals": ["max_steps/tool_budget", "repeat-loop termination", "context limit", "zero-tool final", "blank/no final response"],
+      "travelplanner_mapping": ["delivery/agent_control", "non_delivery_or_agent_control", "agent_control_non_delivery"],
+      "chinatravel_mapping": ["agent_control_exhaustion", "evidence_free_false_stop"],
+      "candidate_mechanisms": ["progress state", "information-sufficiency gate", "loop invariants"]
+    },
+    {
+      "id": "L5_planner_executor_adherence",
+      "name": "Planner–Executor adherence",
+      "operational_definition": "A valid blueprint requirement or retrieval task is not followed, or the final plan contradicts blueprint facts/routes without new evidence justifying the change.",
+      "exclude_when": "The blueprint itself omitted or invented the requirement; assign L2 as primary and retain deviation as secondary.",
+      "observable_signals": ["checklist item not attempted", "final route differs from blueprint", "unplanned calls dominate", "Executor stops before executing checklist"],
+      "travelplanner_mapping": ["blueprint_execution_deviation", "retrieval_checklist_completion failure"],
+      "chinatravel_mapping": ["blueprint_execution_deviation", "checklist category deviation"],
+      "candidate_mechanisms": ["executable plan state", "step completion conditions", "plan-staleness detection"]
+    },
+    {
+      "id": "L6_evidence_utilization_grounding",
+      "name": "Evidence utilization and grounding",
+      "operational_definition": "Relevant evidence was observed but the output omits it, binds it to the wrong field, copies inconsistent values, substitutes a placeholder, or introduces an unsupported entity.",
+      "exclude_when": "The necessary evidence was never observed; assign L3. If content is correct but only the JSON shape is invalid, assign L7.",
+      "observable_signals": ["retrieved but unused", "retrieved but price/time/route/room mismatch", "generic placeholder", "fabricated/invalid entity", "wrong evidence reference"],
+      "travelplanner_mapping": ["grounding/utilization", "is_valid_information_in_sandbox", "is_valid_information_in_current_city"],
+      "chinatravel_mapping": ["evidence_utilization_failure", "retrieved_but_used_inconsistently", "generic_placeholder", "fabricated_or_invalid"],
+      "candidate_mechanisms": ["evidence ledger", "typed citations", "field-level provenance checking"]
+    },
+    {
+      "id": "L7_output_contract",
+      "name": "Output contract",
+      "operational_definition": "The candidate's intended content exists, but its serialization, required fields, enum values, ordering, or conditional transport fields violate the official schema.",
+      "exclude_when": "The entity/value itself is unsupported or infeasible; assign L6 or L8.",
+      "observable_signals": ["malformed JSON", "missing required field", "invalid activity type", "TrainID/FlightID condition violation", "wrong day count/order"],
+      "travelplanner_mapping": ["schema/format/non-delivery flags"],
+      "chinatravel_mapping": ["output_contract_failure", "schema-invalid logical near-miss"],
+      "candidate_mechanisms": ["grammar-constrained decoding", "deterministic serializer", "schema validator before submission"]
+    },
+    {
+      "id": "L8_global_constraint_satisfaction",
+      "name": "Global constraint satisfaction",
+      "operational_definition": "A delivered, sufficiently grounded, schema-valid plan still violates feasibility, route, budget, nights, diversity, room, cuisine, timing, or preference constraints.",
+      "exclude_when": "An earlier layer already explains the missing or corrupted evidence; keep constraint violations as secondary evaluator outcomes.",
+      "observable_signals": ["budget exceeded", "minimum nights violated", "route/transport infeasible", "restaurant/attraction diversity failure", "room/cuisine/house-rule failure"],
+      "travelplanner_mapping": ["route/transportation", "budget/minimum_nights", "diversity/preference/room_rule"],
+      "chinatravel_mapping": ["execution_consistency_or_constraint_failure", "preference_optimization_failure", "official environment/logical failure after valid delivery"],
+      "candidate_mechanisms": ["incremental constraint checker", "resource ledger", "targeted local repair", "symbolic optimization"]
+    }
+  ],
+  "grounding_subtypes": [
+    {"id": "not_retrieved", "meaning": "Necessary entity/category was absent from prior observations.", "primary_layer": "L3_information_acquisition"},
+    {"id": "retrieved_not_used", "meaning": "Relevant observed evidence was omitted from the candidate.", "primary_layer": "L6_evidence_utilization_grounding"},
+    {"id": "retrieved_used_inconsistently", "meaning": "Entity was observed but one or more key fields were changed or misbound.", "primary_layer": "L6_evidence_utilization_grounding"},
+    {"id": "sandbox_valid_unretrieved", "meaning": "Entity exists offline but did not appear in the model's observations; it is not evidence-grounded.", "primary_layer": "L3_information_acquisition"},
+    {"id": "generic_placeholder", "meaning": "Non-identifying text such as 'near the hotel' replaces a required sandbox entity.", "primary_layer": "L6_evidence_utilization_grounding"},
+    {"id": "fabricated_or_invalid", "meaning": "Entity appears in neither prior observations nor the fixed sandbox.", "primary_layer": "L6_evidence_utilization_grounding"},
+    {"id": "grounded_constraint_violation", "meaning": "Evidence is sufficient and correctly used, but the composed plan fails a global/user constraint.", "primary_layer": "L8_global_constraint_satisfaction"},
+    {"id": "contract_only_failure", "meaning": "Content is otherwise supportable but official serialization/schema is invalid.", "primary_layer": "L7_output_contract"}
+  ]
+}

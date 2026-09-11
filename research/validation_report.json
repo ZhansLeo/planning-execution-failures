@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "validated_on": "2026-09-10",
+  "checks": [
+    "TravelPlanner A/B/C/D each contain unique ordered indices 1..180",
+    "TravelPlanner frozen manifest hashes match every manifest, summary, per-sample, submission, and official aggregate file",
+    "TravelPlanner headline metrics and Stage D funnel match analysis_summary.json",
+    "ChinaTravel CT-B/CT-C contain the same 12 paired keys and their four-layer metrics match",
+    "Cross-benchmark deltas match the frozen comparison",
+    "Rate and per-query values match their recorded numerators and denominators",
+    "Eight case cards have unique IDs and every evidence file exists",
+    "The taxonomy contains eight unique layers",
+    "All 11 literature-evidence entries have a matching BibTeX key and HTTPS primary/formal source; Markdown citation keys resolve",
+    "No API-key pattern, secret assignment, or unfinished marker was detected"
+  ],
+  "model_calls_made": 0,
+  "tool_calls_made": 0,
+  "evaluator_calls_made": 0,
+  "command": "python scripts/validate_research_package.py"
+}

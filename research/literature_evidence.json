@@ -1,0 +1,138 @@
+{
+  "version": 1,
+  "verified_on": "2026-09-09",
+  "policy": "Primary papers, official benchmark pages, and formal surveys only; descriptions are paraphrases, not quotations.",
+  "sources": [
+    {
+      "cite_key": "xie2024travelplanner",
+      "title": "TravelPlanner: A Benchmark for Real-World Planning with Language Agents",
+      "year": 2024,
+      "venue": "ICML",
+      "url": "https://arxiv.org/abs/2402.01622",
+      "verified_evidence": [
+        "The benchmark couples multi-day planning with six tools and a sandbox of roughly four million records.",
+        "Its analysis identifies incomplete information collection, tool errors, multi-constraint tracking, long-horizon degradation, global budget/minimum-night failures, and mismatch between reasoning and action."
+      ],
+      "used_for": ["information_sufficiency", "planner_executor_adherence", "global_constraints"]
+    },
+    {
+      "cite_key": "shao2026chinatravel",
+      "title": "ChinaTravel: An Open-Ended Travel Planning Benchmark with Compositional Constraint Validation for Language Agents",
+      "year": 2026,
+      "venue": "ICLR",
+      "url": "https://openreview.net/forum?id=0YRVlxY9BH",
+      "verified_evidence": [
+        "ChinaTravel adds open-ended Chinese requirements, a fixed travel sandbox, and a compositional DSL for feasibility, constraint satisfaction, and preference comparison.",
+        "The official neuro-symbolic pipeline separates natural-language-to-DSL translation from interactive search, making representation quality a distinct planning concern."
+      ],
+      "used_for": ["constraint_representation", "deterministic_verification", "preference_reasoning"]
+    },
+    {
+      "cite_key": "huang2024understanding",
+      "title": "Understanding the Planning of LLM Agents: A Survey",
+      "year": 2024,
+      "venue": "arXiv survey",
+      "url": "https://arxiv.org/abs/2402.02716",
+      "verified_evidence": [
+        "The survey organizes LLM-agent planning methods into task decomposition, multi-plan selection, external-module aid, reflection/refinement, and memory augmentation."
+      ],
+      "used_for": ["method_taxonomy"]
+    },
+    {
+      "cite_key": "cao2025planning",
+      "title": "Large Language Models for Planning: A Comprehensive and Systematic Survey",
+      "year": 2025,
+      "venue": "arXiv survey",
+      "url": "https://arxiv.org/abs/2505.19683",
+      "verified_evidence": [
+        "The survey separates external-module-augmented, finetuning-based, and search-based approaches and distinguishes open-loop from closed-loop planning.",
+        "It treats environment understanding, logical reasoning, sequential decision making, evaluation, and external planners as connected parts of LLM planning."
+      ],
+      "used_for": ["method_taxonomy", "closed_loop_planning", "external_verification"]
+    },
+    {
+      "cite_key": "yao2023react",
+      "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+      "year": 2023,
+      "venue": "ICLR",
+      "url": "https://openreview.net/forum?id=WE_vluYUL-X",
+      "verified_evidence": [
+        "ReAct interleaves reasoning traces with environment actions so observations can update plans and support exception handling.",
+        "Environment interaction converts planning from isolated generation into a feedback-conditioned loop."
+      ],
+      "used_for": ["closed_loop_planning", "information_acquisition"]
+    },
+    {
+      "cite_key": "liu2023llmp",
+      "title": "LLM+P: Empowering Large Language Models with Optimal Planning Proficiency",
+      "year": 2023,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2304.11477",
+      "verified_evidence": [
+        "LLM+P maps natural-language planning problems into PDDL, delegates search to a classical planner, and translates the result back to language.",
+        "It motivates assigning formally checkable planning operations to sound external components rather than relying only on plausible generation."
+      ],
+      "used_for": ["constraint_state", "deterministic_verification"]
+    },
+    {
+      "cite_key": "kambhampati2024llmmodulo",
+      "title": "Position: LLMs Can't Plan, But Can Help Planning in LLM-Modulo Frameworks",
+      "year": 2024,
+      "venue": "ICML",
+      "url": "https://proceedings.mlr.press/v235/kambhampati24a.html",
+      "verified_evidence": [
+        "The position paper argues against treating autoregressive LLM generation or self-verification as a sound planner.",
+        "It proposes tighter bidirectional integration between LLMs and external model-based verifiers."
+      ],
+      "used_for": ["reliable_verification", "external_modules"]
+    },
+    {
+      "cite_key": "zhang2024pddlego",
+      "title": "PDDLEGO: Iterative Planning in Textual Environments",
+      "year": 2024,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2405.19793",
+      "verified_evidence": [
+        "PDDLEGO addresses partially observed environments by iteratively extending a formal planning representation as subgoals reveal new information.",
+        "It provides a concrete alternative to a one-shot static representation when information is initially incomplete."
+      ],
+      "used_for": ["information_sufficiency", "state_maintenance", "execution_time_replanning"]
+    },
+    {
+      "cite_key": "erdogan2025planact",
+      "title": "Plan-and-Act: Improving Planning of Agents for Long-Horizon Tasks",
+      "year": 2025,
+      "venue": "arXiv / OpenReview",
+      "url": "https://arxiv.org/abs/2503.09572",
+      "verified_evidence": [
+        "Plan-and-Act separates a high-level Planner from an environment-specific Executor for long-horizon tasks.",
+        "Its dynamic variant updates the plan after executor steps because static plans can become stale or blindly persist after unexpected observations."
+      ],
+      "used_for": ["planner_executor", "plan_adherence", "dynamic_replanning"]
+    },
+    {
+      "cite_key": "zhang2026deepplanning",
+      "title": "DeepPlanning: Benchmarking Long-Horizon Agentic Planning with Verifiable Constraints",
+      "year": 2026,
+      "venue": "ACL",
+      "url": "https://aclanthology.org/2026.acl-long.335/",
+      "verified_evidence": [
+        "DeepPlanning explicitly evaluates proactive information acquisition, local constrained reasoning, and global constrained optimization.",
+        "Its analysis reports omitted tool calls, difficulty with implicit environment constraints, and weak global consistency checking/backtracking over long horizons."
+      ],
+      "used_for": ["information_sufficiency", "global_constraints", "backtracking"]
+    },
+    {
+      "cite_key": "aghzal2026hierarchical",
+      "title": "Why Do LLM-based Web Agents Fail? A Hierarchical Planning Perspective",
+      "year": 2026,
+      "venue": "ACL",
+      "url": "https://aclanthology.org/2026.acl-long.1483/",
+      "verified_evidence": [
+        "The work diagnoses web agents at high-level planning, low-level execution, and replanning layers instead of relying only on end-to-end success.",
+        "It finds that more structured high-level plans can be concise and goal-directed while low-level execution remains the dominant bottleneck."
+      ],
+      "used_for": ["failure_localization", "planner_executor_adherence", "adaptive_control"]
+    }
+  ]
+}

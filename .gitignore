@@ -1,0 +1,17 @@
+.env
+.env.*
+*.key
+*.pem
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
+runs/
+database/
+data/
+deck/build/
+deck/prototypes/
