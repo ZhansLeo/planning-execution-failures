@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#FAFAF7"/>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#252525}.title{font-size:36px;font-weight:700}.sub{font-size:19px;fill:#666}.lab{font-size:18px}.small{font-size:15px}.val{font-size:17px;font-weight:700}</style>
+<text x="80" y="70" class="title">Stage D 验证–修复漏斗</text>
+<text x="80" y="105" class="sub">下游机制无法处理 61 条没有候选的上游失败</text>
+<rect x="240.0" y="170" width="1120.0" height="82" rx="8" fill="#4477AA"/>
+<text x="800" y="221" text-anchor="middle" class="val" fill="white">候选  119</text>
+<rect x="240.0" y="295" width="1120.0" height="82" rx="8" fill="#6699CC"/>
+<text x="800" y="346" text-anchor="middle" class="val" fill="white">Verifier  119</text>
+<rect x="546.7" y="420" width="506.6" height="82" rx="8" fill="#CCBB44"/>
+<text x="800" y="471" text-anchor="middle" class="val" fill="white">Replan  46</text>
+<rect x="672.8" y="545" width="254.5" height="82" rx="8" fill="#EE9944"/>
+<text x="800" y="596" text-anchor="middle" class="val" fill="white">合法 Replan  16</text>
+<rect x="723.2" y="670" width="153.6" height="82" rx="8" fill="#228833"/>
+<text x="800" y="721" text-anchor="middle" class="val" fill="white">Repair success  4</text>
+</svg>

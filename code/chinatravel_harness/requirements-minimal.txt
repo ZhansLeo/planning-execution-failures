@@ -1,0 +1,13 @@
+datasets==3.3.2
+func-timeout==4.3.5
+fuzzywuzzy==0.18.0
+geopy==2.4.1
+json-repair==0.30.0
+jsonschema==4.23.0
+numpy==1.26.4
+openai==1.109.1
+pandas==2.2.3
+pytest==8.3.5
+scikit-learn==1.5.2
+tqdm==4.66.6
+z3-solver==4.14.1.0

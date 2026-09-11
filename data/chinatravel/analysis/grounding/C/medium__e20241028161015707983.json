@@ -1,0 +1,36 @@
+{
+  "baseline": "C",
+  "sample_key": "medium:e20241028161015707983",
+  "run_id": "ct-c-20260908T145753Z-e20241028161015707983",
+  "split": "medium",
+  "uid": "e20241028161015707983",
+  "termination": "tool_budget_exceeded",
+  "model_calls": 14,
+  "tool_calls": 30,
+  "total_tokens": 278710,
+  "latency_seconds": 92.98868089995813,
+  "final_response": false,
+  "schema_delivery": false,
+  "environment_pass": false,
+  "logical_pass": false,
+  "all_pass": false,
+  "schema_errors": [
+    "no final response: tool_budget_exceeded"
+  ],
+  "planner_flags": [
+    "blueprint_execution_deviation"
+  ],
+  "observed_row_count": 151,
+  "activity_count": 0,
+  "activity_status_counts": {},
+  "activity_grounding_micro": 0.0,
+  "activity_consistency_micro": 0.0,
+  "transport_count": 0,
+  "transport_status_counts": {},
+  "transport_grounding_micro": 0.0,
+  "fully_grounded_plan": false,
+  "any_observation_delivery": false,
+  "primary_failure": "agent_control_exhaustion",
+  "activities": [],
+  "transports": []
+}

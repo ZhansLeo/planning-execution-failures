@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "frozen_on": "2026-09-07",
+  "policy": "analysis_only_no_model_tool_or_evaluator_calls",
+  "stages": {
+    "A": {
+      "experiment": "stage-a-full-v1",
+      "baseline": "A",
+      "dataset_fingerprint": "dab835d211816e2e",
+      "protocol": {
+        "model": "deepseek-chat",
+        "base_url": "https://api.deepseek.com",
+        "temperature": 0.0,
+        "timeout_seconds": 120.0,
+        "max_transport_retries": 2,
+        "prompt_version": "direct-v1.1-frozen",
+        "prompt_protocol_hash": "bd2dffa0d9e81d17fbfa8fd27caf6daa511f64c2960efde80007bd31ae573206"
+      },
+      "protocol_hash": "5e376e7420ad788f8bfd09ebaad2059a570f7311b96b198d3a700e1b86551f1e",
+      "files": {
+        "manifest.json": "c59ffeed033cb9ad3d8e1286446a2122f7c65dc6c215726f99e0744df2f32bf5",
+        "summary.json": "b7814b74653ebc1ce2d9b40dfad9e60cd98d597f1ee7fa7c1a939e0c8ca22eb0",
+        "per_sample.json": "3836a1355ebe05abd00584091a02215741d019b761d11395114eb3d276e8f077",
+        "submission.jsonl": "3d34b0e2bc27256c1a25206c688269b5a54a7966f0d406f4fb2d169279b6dfd3",
+        "official_aggregate.json": "2fab263571145650643a10d4aed19966f43a03fe1576318152e033fbe0bec508"
+      }
+    },
+    "B": {
+      "experiment": "stage-b-full-v1",
+      "baseline": "B_two_stage_react",
+      "dataset_fingerprint": "dab835d211816e2e",
+      "protocol": {
+        "model": "deepseek-chat",
+        "base_url": "https://api.deepseek.com",
+        "temperature": 0.0,
+        "timeout_seconds": 120.0,
+        "max_transport_retries": 2,
+        "prompt_version": "two-stage-react-v1.3",
+        "prompt_protocol_hash": "5189670f5b700b5fa6834f8b8088facbb841f4d042fe16d100d69c8320e702ff",
+        "tool_schema_hash": "ddb1192864c231cfc694bba9c6b9ce68d0c6aaf01205c7d42b278b8a647b2fd9",
+        "max_tool_calls": 30,
+        "max_context_tokens": 56000,
+        "max_output_tokens": 8000,
+        "multi_tool_call_policy": "sequential_batch",
+        "evidence_audit_version": "evidence-audit-v1.1"
+      },
+      "protocol_hash": "5a9922d33776ed9b4bece68d6754f603fff2c3484b564336ff9900775a1743bb",
+      "files": {
+        "manifest.json": "9d636679bd8c318fe1795cd9150f9da59784ffdd4b770e1df226f4e84dfb26c2",
+        "summary.json": "5ed12f475c549a8256182ced55f28aff70f117b1ab76699555608ceaff849bf0",
+        "per_sample.json": "b38d92c3ed4cfbbf0a5d673612f3e3245c1c8fe20621ebecde3a9d9544469fe4",
+        "submission.jsonl": "9712b359ccb5e3d740d221b7a1094ccf7ee6bbea4fa349307e7d327096f4ec10",
+        "official_aggregate.json": "babd138e429deb44bcd579091cc0fa9b566bb0e16e601b319dfc96b87b6150a9"
+      }
+    },
+    "C": {
+      "experiment": "stage-c-full-v1",
+      "baseline": "C_explicit_planner_react",
+      "dataset_fingerprint": "dab835d211816e2e",
+      "protocol": {
+        "model": "deepseek-chat",
+        "base_url": "https://api.deepseek.com",
+        "temperature": 0.0,
+        "timeout_seconds": 120.0,
+        "max_transport_retries": 2,
+        "prompt_version": "explicit-planner-v1.0",
+        "prompt_protocol_hash": "733e6fa6b42b258c6f758bde0c89cfa3b8dde6ef796dc4010ed4908325e052f4",
+        "tool_schema_hash": "ddb1192864c231cfc694bba9c6b9ce68d0c6aaf01205c7d42b278b8a647b2fd9",
+        "max_tool_calls": 30,
+        "max_context_tokens": 56000,
+        "max_output_tokens": 8000,
+        "multi_tool_call_policy": "sequential_batch",
+        "evidence_audit_version": "evidence-audit-v1.1",
+        "planner_max_output_tokens": 1500,
+        "planner_audit_version": "planner-audit-v1.0",
+        "observation_compression": false,
+        "scripted_retrieval": false
+      },
+      "protocol_hash": "1553afc52ef5954445b54b52134a4ccdae4cddc64e224dbf5b8862d423796ccf",
+      "files": {
+        "manifest.json": "cda1eafdf222424e45cbe719e7ba1baef6fbb3380e6c507aacb60a6819b84298",
+        "summary.json": "c49cf14124665f431c659c25498707e915d1d121bf9c10d81bf1009c2cd20569",
+        "per_sample.json": "31c881156e04565e05c12acdd37480cd2470490afd47ac4efe63302414a4ebe3",
+        "submission.jsonl": "aba50bc770e62842bef5d874a289ff111b24a0057c58d669f1fa6c30037ecc9b",
+        "official_aggregate.json": "554e6fa49dc9d31acae4f3c6f48442f995999fccb2db63c1207733f963949fa6"
+      }
+    },
+    "D": {
+      "experiment": "stage-d-full-v1",
+      "baseline": "D_verifier_single_replan",
+      "dataset_fingerprint": "dab835d211816e2e",
+      "protocol": {
+        "model": "deepseek-chat",
+        "base_url": "https://api.deepseek.com",
+        "temperature": 0.0,
+        "timeout_seconds": 120.0,
+        "max_transport_retries": 2,
+        "prompt_version": "explicit-planner-v1.0",
+        "prompt_protocol_hash": "733e6fa6b42b258c6f758bde0c89cfa3b8dde6ef796dc4010ed4908325e052f4",
+        "tool_schema_hash": "ddb1192864c231cfc694bba9c6b9ce68d0c6aaf01205c7d42b278b8a647b2fd9",
+        "max_tool_calls": 30,
+        "max_context_tokens": 56000,
+        "max_output_tokens": 8000,
+        "multi_tool_call_policy": "sequential_batch",
+        "evidence_audit_version": "evidence-audit-v1.1",
+        "planner_max_output_tokens": 1500,
+        "planner_audit_version": "planner-audit-v1.0",
+        "observation_compression": false,
+        "scripted_retrieval": false,
+        "stage_d_protocol_hash": "7ba7aec0ac63fa4fa96d6991879a1a707fe5635e2315be579c68d7d3815b0923",
+        "verifier_prompt_version": "verifier-v1.2",
+        "replan_prompt_version": "single-replan-v1.0",
+        "verifier_max_output_tokens": 2500,
+        "replan_max_output_tokens": 8000,
+        "verifier_calls_max": 1,
+        "replan_calls_max": 1,
+        "replan_tools": false,
+        "fallback": "valid_replan_then_valid_original_then_empty",
+        "evidence_catalog_version": "evidence-catalog-v1.0",
+        "verifier_audit_version": "verifier-audit-v1.0"
+      },
+      "protocol_hash": "f71895833818fa90be58fab93a6279bce3f8a221637841ab4b2ec8d6afd5c743",
+      "files": {
+        "manifest.json": "cc031b1e07e9ab034bb66777e01b9d6136f1696c7852f1f13ed0b62ac92174b5",
+        "summary.json": "15079b63f5233c1c02e4822dd133f49b611031ba58072cab6cd70e973cfc4922",
+        "per_sample.json": "92228e9b7d612890ff08d534b70992349dc078324d2a2d23abd7994c7139670c",
+        "submission.jsonl": "52684a609e91450cb439871881f8b66653feb4a6775dfe176d70878e8a67754e",
+        "official_aggregate.json": "d48f92e7e6ea8af2330cbcd47e34b07ee5d855e4cde002958c516fd91355d652"
+      }
+    }
+  }
+}

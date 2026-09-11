@@ -1,0 +1,3 @@
+﻿baseline,final_response,schema_delivery,any_observation_delivery,fully_grounded_plan,activity_grounding_micro,activity_consistency_micro,transport_grounding_micro,environment_pass,logical_pass,schema_and_environment_pass,schema_and_logical_pass,all_pass,mean_tokens,mean_tools,mean_latency
+B,4,4,4,2,1.0,0.971830985915493,0.5862068965517241,0,0,0,0,0,229937.83333333334,29.083333333333332,70.55305216666602
+C,7,4,2,1,0.7154471544715447,0.5691056910569106,0.43209876543209874,0,1,0,0,0,197205.0,23.75,65.67510560832064

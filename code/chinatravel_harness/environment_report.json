@@ -1,0 +1,52 @@
+{
+  "status": "ok",
+  "official_root": "<CHINATRAVEL_OFFICIAL_REPO>",
+  "official_commit": "0936f2727dd102ad811ed015b7bf6f7d6533f28e",
+  "official_git_status": "",
+  "python": "3.12.13",
+  "database_file_count": 132,
+  "splits": {
+    "easy": {
+      "count": 300,
+      "first_uid": "e20241028160248698752",
+      "sha256": "cb0b7940defa8a9b260bac12bee3fb3254678883b40371c3ca8f33c5f37153e3"
+    },
+    "medium": {
+      "count": 150,
+      "first_uid": "e20241028160842228543",
+      "sha256": "9cd49188a8f2a01b900abecc3f10263c257bcb761cf2635e5f0d4fb53d93f77b"
+    },
+    "human": {
+      "count": 154,
+      "first_uid": "h20241029143447759844",
+      "sha256": "2f0d61e37665a345bd428732ace6e1ce9d6de2af8d292047bcf5cc1c4f9cfc78"
+    }
+  },
+  "exposed_tool_names": [
+    "attractions_keys",
+    "attractions_select",
+    "attractions_id_is_open",
+    "attractions_nearby",
+    "attractions_types",
+    "accommodations_keys",
+    "accommodations_select",
+    "accommodations_nearby",
+    "restaurants_keys",
+    "restaurants_select",
+    "restaurants_id_is_open",
+    "restaurants_nearby",
+    "restaurants_with_recommended_food",
+    "restaurants_cuisine",
+    "goto",
+    "intercity_transport_select",
+    "poi_lat_lon_search",
+    "next_page"
+  ],
+  "excluded_tool_names": [
+    "china_travel_list_splits",
+    "china_travel_load_query",
+    "china_travel_world_command"
+  ],
+  "output_schema_sha256": "6bd2ab0da6930e9d3593034e24b53ab7c6d345063ad4e81f4114e1afb4d5c439",
+  "runtime_data_source": "local fixed ChinaTravel sandbox"
+}

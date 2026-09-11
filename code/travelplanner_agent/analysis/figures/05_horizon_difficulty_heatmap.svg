@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#FAFAF7"/>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#252525}.title{font-size:36px;font-weight:700}.sub{font-size:19px;fill:#666}.lab{font-size:18px}.small{font-size:15px}.val{font-size:17px;font-weight:700}</style>
+<text x="80" y="70" class="title">难度 × 行程长度 Final Pass</text>
+<text x="80" y="105" class="sub">每格 20 条 validation；四阶段统一色阶</text>
+<text x="245" y="175" text-anchor="middle" class="title">Stage A</text>
+<text x="145.0" y="225" text-anchor="middle" class="lab">3天</text>
+<text x="245.0" y="225" text-anchor="middle" class="lab">5天</text>
+<text x="345.0" y="225" text-anchor="middle" class="lab">7天</text>
+<text x="80" y="305.0" text-anchor="end" class="lab">easy</text>
+<rect x="95" y="250" width="94" height="94" rx="6" fill="rgb(190,192,203)"/>
+<text x="142.0" y="306.0" text-anchor="middle" class="val">35.0%</text>
+<rect x="195" y="250" width="94" height="94" rx="6" fill="rgb(214,204,221)"/>
+<text x="242.0" y="306.0" text-anchor="middle" class="val">20.0%</text>
+<rect x="295" y="250" width="94" height="94" rx="6" fill="rgb(237,216,239)"/>
+<text x="342.0" y="306.0" text-anchor="middle" class="val">5.0%</text>
+<text x="80" y="405.0" text-anchor="end" class="lab">medium</text>
+<rect x="95" y="350" width="94" height="94" rx="6" fill="rgb(214,204,221)"/>
+<text x="142.0" y="406.0" text-anchor="middle" class="val">20.0%</text>
+<rect x="195" y="350" width="94" height="94" rx="6" fill="rgb(237,216,239)"/>
+<text x="242.0" y="406.0" text-anchor="middle" class="val">5.0%</text>
+<rect x="295" y="350" width="94" height="94" rx="6" fill="rgb(237,216,239)"/>
+<text x="342.0" y="406.0" text-anchor="middle" class="val">5.0%</text>
+<text x="80" y="505.0" text-anchor="end" class="lab">hard</text>
+<rect x="95" y="450" width="94" height="94" rx="6" fill="rgb(214,204,221)"/>
+<text x="142.0" y="506.0" text-anchor="middle" class="val">20.0%</text>
+<rect x="195" y="450" width="94" height="94" rx="6" fill="rgb(221,208,227)"/>
+<text x="242.0" y="506.0" text-anchor="middle" class="val">15.0%</text>
+<rect x="295" y="450" width="94" height="94" rx="6" fill="rgb(245,220,245)"/>
+<text x="342.0" y="506.0" text-anchor="middle" class="val">0.0%</text>
+<text x="620" y="175" text-anchor="middle" class="title">Stage B</text>
+<text x="520.0" y="225" text-anchor="middle" class="lab">3天</text>
+<text x="620.0" y="225" text-anchor="middle" class="lab">5天</text>
+<text x="720.0" y="225" text-anchor="middle" class="lab">7天</text>
+<text x="455" y="305.0" text-anchor="end" class="lab">easy</text>
+<rect x="470" y="250" width="94" height="94" rx="6" fill="rgb(159,176,179)"/>
+<text x="517.0" y="306.0" text-anchor="middle" class="val">55.0%</text>
+<rect x="570" y="250" width="94" height="94" rx="6" fill="rgb(214,204,221)"/>
+<text x="617.0" y="306.0" text-anchor="middle" class="val">20.0%</text>
+<rect x="670" y="250" width="94" height="94" rx="6" fill="rgb(237,216,239)"/>
+<text x="717.0" y="306.0" text-anchor="middle" class="val">5.0%</text>
+<text x="455" y="405.0" text-anchor="end" class="lab">medium</text>
+<rect x="470" y="350" width="94" height="94" rx="6" fill="rgb(206,200,215)"/>
+<text x="517.0" y="406.0" text-anchor="middle" class="val">25.0%</text>
+<rect x="570" y="350" width="94" height="94" rx="6" fill="rgb(229,212,233)"/>
+<text x="617.0" y="406.0" text-anchor="middle" class="val">10.0%</text>
+<rect x="670" y="350" width="94" height="94" rx="6" fill="rgb(245,220,245)"/>
+<text x="717.0" y="406.0" text-anchor="middle" class="val">0.0%</text>
+<text x="455" y="505.0" text-anchor="end" class="lab">hard</text>
+<rect x="470" y="450" width="94" height="94" rx="6" fill="rgb(214,204,221)"/>
+<text x="517.0" y="506.0" text-anchor="middle" class="val">20.0%</text>
+<rect x="570" y="450" width="94" height="94" rx="6" fill="rgb(245,220,245)"/>
+<text x="617.0" y="506.0" text-anchor="middle" class="val">0.0%</text>
+<rect x="670" y="450" width="94" height="94" rx="6" fill="rgb(237,216,239)"/>
+<text x="717.0" y="506.0" text-anchor="middle" class="val">5.0%</text>
+<text x="995" y="175" text-anchor="middle" class="title">Stage C</text>
+<text x="895.0" y="225" text-anchor="middle" class="lab">3天</text>
+<text x="995.0" y="225" text-anchor="middle" class="lab">5天</text>
+<text x="1095.0" y="225" text-anchor="middle" class="lab">7天</text>
+<text x="830" y="305.0" text-anchor="end" class="lab">easy</text>
+<rect x="845" y="250" width="94" height="94" rx="6" fill="rgb(190,192,203)"/>
+<text x="892.0" y="306.0" text-anchor="middle" class="val">35.0%</text>
+<rect x="945" y="250" width="94" height="94" rx="6" fill="rgb(221,208,227)"/>
+<text x="992.0" y="306.0" text-anchor="middle" class="val">15.0%</text>
+<rect x="1045" y="250" width="94" height="94" rx="6" fill="rgb(245,220,245)"/>
+<text x="1092.0" y="306.0" text-anchor="middle" class="val">0.0%</text>
+<text x="830" y="405.0" text-anchor="end" class="lab">medium</text>
+<rect x="845" y="350" width="94" height="94" rx="6" fill="rgb(175,184,191)"/>
+<text x="892.0" y="406.0" text-anchor="middle" class="val">45.0%</text>
+<rect x="945" y="350" width="94" height="94" rx="6" fill="rgb(237,216,239)"/>
+<text x="992.0" y="406.0" text-anchor="middle" class="val">5.0%</text>
+<rect x="1045" y="350" width="94" height="94" rx="6" fill="rgb(245,220,245)"/>
+<text x="1092.0" y="406.0" text-anchor="middle" class="val">0.0%</text>
+<text x="830" y="505.0" text-anchor="end" class="lab">hard</text>
+<rect x="845" y="450" width="94" height="94" rx="6" fill="rgb(190,192,203)"/>
+<text x="892.0" y="506.0" text-anchor="middle" class="val">35.0%</text>
+<rect x="945" y="450" width="94" height="94" rx="6" fill="rgb(237,216,239)"/>
+<text x="992.0" y="506.0" text-anchor="middle" class="val">5.0%</text>
+<rect x="1045" y="450" width="94" height="94" rx="6" fill="rgb(237,216,239)"/>
+<text x="1092.0" y="506.0" text-anchor="middle" class="val">5.0%</text>
+<text x="1370" y="175" text-anchor="middle" class="title">Stage D</text>
+<text x="1270.0" y="225" text-anchor="middle" class="lab">3天</text>
+<text x="1370.0" y="225" text-anchor="middle" class="lab">5天</text>
+<text x="1470.0" y="225" text-anchor="middle" class="lab">7天</text>
+<text x="1205" y="305.0" text-anchor="end" class="lab">easy</text>
+<rect x="1220" y="250" width="94" height="94" rx="6" fill="rgb(183,188,197)"/>
+<text x="1267.0" y="306.0" text-anchor="middle" class="val">40.0%</text>
+<rect x="1320" y="250" width="94" height="94" rx="6" fill="rgb(221,208,227)"/>
+<text x="1367.0" y="306.0" text-anchor="middle" class="val">15.0%</text>
+<rect x="1420" y="250" width="94" height="94" rx="6" fill="rgb(245,220,245)"/>
+<text x="1467.0" y="306.0" text-anchor="middle" class="val">0.0%</text>
+<text x="1205" y="405.0" text-anchor="end" class="lab">medium</text>
+<rect x="1220" y="350" width="94" height="94" rx="6" fill="rgb(190,192,203)"/>
+<text x="1267.0" y="406.0" text-anchor="middle" class="val">35.0%</text>
+<rect x="1320" y="350" width="94" height="94" rx="6" fill="rgb(229,212,233)"/>
+<text x="1367.0" y="406.0" text-anchor="middle" class="val">10.0%</text>
+<rect x="1420" y="350" width="94" height="94" rx="6" fill="rgb(245,220,245)"/>
+<text x="1467.0" y="406.0" text-anchor="middle" class="val">0.0%</text>
+<text x="1205" y="505.0" text-anchor="end" class="lab">hard</text>
+<rect x="1220" y="450" width="94" height="94" rx="6" fill="rgb(206,200,215)"/>
+<text x="1267.0" y="506.0" text-anchor="middle" class="val">25.0%</text>
+<rect x="1320" y="450" width="94" height="94" rx="6" fill="rgb(229,212,233)"/>
+<text x="1367.0" y="506.0" text-anchor="middle" class="val">10.0%</text>
+<rect x="1420" y="450" width="94" height="94" rx="6" fill="rgb(229,212,233)"/>
+<text x="1467.0" y="506.0" text-anchor="middle" class="val">10.0%</text>
+<text x="800" y="650" text-anchor="middle" class="sub">长程任务仍是共同瓶颈；颜色越深表示 Final Pass 越高</text>
+</svg>

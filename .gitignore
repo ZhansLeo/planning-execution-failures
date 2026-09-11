@@ -1,5 +1,6 @@
 .env
 .env.*
+!.env.example
 *.key
 *.pem
 __pycache__/
@@ -12,6 +13,5 @@ Thumbs.db
 .DS_Store
 runs/
 database/
-data/
 deck/build/
 deck/prototypes/

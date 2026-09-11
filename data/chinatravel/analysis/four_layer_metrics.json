@@ -1,0 +1,66 @@
+{
+  "B": {
+    "baseline": "B",
+    "n": 12,
+    "layer_1_agent_control": {
+      "final_response_count": 4,
+      "final_response_rate": 0.3333333333333333
+    },
+    "layer_2_output_contract": {
+      "schema_delivery_count": 4,
+      "schema_delivery_rate": 0.3333333333333333
+    },
+    "layer_3_evidence_grounding": {
+      "any_observation_delivery_count": 4,
+      "fully_grounded_plan_count": 2,
+      "activity_grounding_micro": 1.0,
+      "activity_consistency_micro": 0.971830985915493,
+      "transport_grounding_micro": 0.5862068965517241
+    },
+    "layer_4_official_correctness": {
+      "environment_pass_count": 0,
+      "logical_pass_count": 0,
+      "schema_and_environment_pass_count": 0,
+      "schema_and_logical_pass_count": 0,
+      "all_pass_count": 0,
+      "all_pass_rate": 0.0
+    },
+    "cost": {
+      "mean_tokens": 229937.83333333334,
+      "mean_tool_calls": 29.083333333333332,
+      "mean_latency_seconds": 70.55305216666602
+    }
+  },
+  "C": {
+    "baseline": "C",
+    "n": 12,
+    "layer_1_agent_control": {
+      "final_response_count": 7,
+      "final_response_rate": 0.5833333333333334
+    },
+    "layer_2_output_contract": {
+      "schema_delivery_count": 4,
+      "schema_delivery_rate": 0.3333333333333333
+    },
+    "layer_3_evidence_grounding": {
+      "any_observation_delivery_count": 2,
+      "fully_grounded_plan_count": 1,
+      "activity_grounding_micro": 0.7154471544715447,
+      "activity_consistency_micro": 0.5691056910569106,
+      "transport_grounding_micro": 0.43209876543209874
+    },
+    "layer_4_official_correctness": {
+      "environment_pass_count": 0,
+      "logical_pass_count": 1,
+      "schema_and_environment_pass_count": 0,
+      "schema_and_logical_pass_count": 0,
+      "all_pass_count": 0,
+      "all_pass_rate": 0.0
+    },
+    "cost": {
+      "mean_tokens": 197205.0,
+      "mean_tool_calls": 23.75,
+      "mean_latency_seconds": 65.67510560832064
+    }
+  }
+}

@@ -1,0 +1,323 @@
+[
+  {
+    "title": "零工具伪 Delivery",
+    "baseline": "C",
+    "sample_key": "medium:e20241028161334777418",
+    "run_id": "ct-c-20260908T145356Z-e20241028161334777418",
+    "primary_failure": "evidence_free_false_stop",
+    "planner_flags": [
+      "retrieval_checklist_incomplete",
+      "blueprint_execution_deviation"
+    ],
+    "terminal": "finalized_response",
+    "tool_calls": 0,
+    "tokens": 12035,
+    "schema_delivery": true,
+    "environment_pass": false,
+    "logical_pass": false,
+    "all_pass": false,
+    "activity_status_counts": {
+      "not_retrieved_but_exists_in_sandbox": 3,
+      "generic_placeholder": 6
+    },
+    "transport_status_counts": {
+      "not_retrieved_or_fabricated": 8
+    },
+    "paired_peer": {
+      "baseline": "B",
+      "run_id": "ct-b-smoke-20260907T121120Z-e20241028161334777418",
+      "terminal": "tool_budget_exceeded",
+      "tool_calls": 30,
+      "tokens": 213205,
+      "schema_delivery": false,
+      "all_pass": false
+    },
+    "review_files": [
+      "query_visible.json",
+      "planning_blueprint.json",
+      "trajectory.jsonl",
+      "final_raw_response.txt",
+      "parse_result.json",
+      "evaluation.json"
+    ]
+  },
+  {
+    "title": "Planner 实体注入与零工具生成",
+    "baseline": "C",
+    "sample_key": "human:h20241029143736524841",
+    "run_id": "ct-c-20260908T150133Z-h20241029143736524841",
+    "primary_failure": "evidence_free_false_stop",
+    "planner_flags": [
+      "planner_entity_violation",
+      "blueprint_execution_deviation"
+    ],
+    "terminal": "finalized_response",
+    "tool_calls": 0,
+    "tokens": 13550,
+    "schema_delivery": true,
+    "environment_pass": false,
+    "logical_pass": false,
+    "all_pass": false,
+    "activity_status_counts": {
+      "not_retrieved_but_exists_in_sandbox": 8,
+      "fabricated_or_invalid": 4,
+      "generic_placeholder": 12
+    },
+    "transport_status_counts": {
+      "not_retrieved_or_fabricated": 12
+    },
+    "paired_peer": {
+      "baseline": "B",
+      "run_id": "ct-b-smoke-20260908T081124Z-h20241029143736524841",
+      "terminal": "finalized_response",
+      "tool_calls": 30,
+      "tokens": 271670,
+      "schema_delivery": true,
+      "all_pass": false
+    },
+    "review_files": [
+      "query_visible.json",
+      "planning_blueprint.json",
+      "trajectory.jsonl",
+      "final_raw_response.txt",
+      "parse_result.json",
+      "evaluation.json"
+    ]
+  },
+  {
+    "title": "及时停止但约束仍失败",
+    "baseline": "C",
+    "sample_key": "easy:m20241028164815894420",
+    "run_id": "ct-c-20260908T145255Z-m20241028164815894420",
+    "primary_failure": "evidence_utilization_failure",
+    "planner_flags": [
+      "blueprint_execution_deviation"
+    ],
+    "terminal": "finalized_response",
+    "tool_calls": 28,
+    "tokens": 205807,
+    "schema_delivery": true,
+    "environment_pass": false,
+    "logical_pass": false,
+    "all_pass": false,
+    "activity_status_counts": {
+      "retrieved_and_used_consistently": 8,
+      "retrieved_but_used_inconsistently": 8
+    },
+    "transport_status_counts": {
+      "retrieved_and_used_consistently": 6,
+      "retrieved_but_used_inconsistently": 1
+    },
+    "paired_peer": {
+      "baseline": "B",
+      "run_id": "ct-b-smoke-20260907T121035Z-m20241028164815894420",
+      "terminal": "tool_budget_exceeded",
+      "tool_calls": 30,
+      "tokens": 156065,
+      "schema_delivery": false,
+      "all_pass": false
+    },
+    "review_files": [
+      "query_visible.json",
+      "planning_blueprint.json",
+      "trajectory.jsonl",
+      "final_raw_response.txt",
+      "parse_result.json",
+      "evaluation.json"
+    ]
+  },
+  {
+    "title": "检索后证据利用/全局一致性失败",
+    "baseline": "C",
+    "sample_key": "medium:e20241028161327496043",
+    "run_id": "ct-c-20260908T145509Z-e20241028161327496043",
+    "primary_failure": "evidence_utilization_failure",
+    "planner_flags": [
+      "retrieval_checklist_incomplete",
+      "blueprint_execution_deviation"
+    ],
+    "terminal": "finalized_response",
+    "tool_calls": 27,
+    "tokens": 298167,
+    "schema_delivery": true,
+    "environment_pass": false,
+    "logical_pass": false,
+    "all_pass": false,
+    "activity_status_counts": {
+      "retrieved_and_used_consistently": 14,
+      "retrieved_but_used_inconsistently": 1
+    },
+    "transport_status_counts": {
+      "not_retrieved_or_fabricated": 14
+    },
+    "paired_peer": {
+      "baseline": "B",
+      "run_id": "ct-b-smoke-20260908T080546Z-e20241028161327496043",
+      "terminal": "finalized_response",
+      "tool_calls": 22,
+      "tokens": 194477,
+      "schema_delivery": true,
+      "all_pass": false
+    },
+    "review_files": [
+      "query_visible.json",
+      "planning_blueprint.json",
+      "trajectory.jsonl",
+      "final_raw_response.txt",
+      "parse_result.json",
+      "evaluation.json"
+    ]
+  },
+  {
+    "title": "航班字段输出契约回归",
+    "baseline": "C",
+    "sample_key": "easy:m20241028164642633824",
+    "run_id": "ct-c-20260908T144953Z-m20241028164642633824",
+    "primary_failure": "output_contract_failure",
+    "planner_flags": [
+      "blueprint_execution_deviation"
+    ],
+    "terminal": "finalized_response",
+    "tool_calls": 27,
+    "tokens": 220846,
+    "schema_delivery": false,
+    "environment_pass": false,
+    "logical_pass": false,
+    "all_pass": false,
+    "activity_status_counts": {
+      "retrieved_but_used_inconsistently": 4,
+      "retrieved_and_used_consistently": 14
+    },
+    "transport_status_counts": {
+      "retrieved_and_used_consistently": 4,
+      "not_retrieved_or_fabricated": 11
+    },
+    "paired_peer": {
+      "baseline": "B",
+      "run_id": "ct-b-smoke-20260907T120725Z-m20241028164642633824",
+      "terminal": "finalized_response",
+      "tool_calls": 28,
+      "tokens": 292309,
+      "schema_delivery": true,
+      "all_pass": false
+    },
+    "review_files": [
+      "query_visible.json",
+      "planning_blueprint.json",
+      "trajectory.jsonl",
+      "final_raw_response.txt",
+      "parse_result.json",
+      "evaluation.json"
+    ]
+  },
+  {
+    "title": "逻辑通过但 taxi schema near-miss",
+    "baseline": "C",
+    "sample_key": "human:h20241029143832205713",
+    "run_id": "ct-c-20260908T150155Z-h20241029143832205713",
+    "primary_failure": "output_contract_failure",
+    "planner_flags": [
+      "planner_source_text_mismatch",
+      "blueprint_execution_deviation"
+    ],
+    "terminal": "finalized_response",
+    "tool_calls": 23,
+    "tokens": 163491,
+    "schema_delivery": false,
+    "environment_pass": false,
+    "logical_pass": true,
+    "all_pass": false,
+    "activity_status_counts": {
+      "retrieved_and_used_consistently": 24,
+      "generic_placeholder": 2
+    },
+    "transport_status_counts": {},
+    "paired_peer": {
+      "baseline": "B",
+      "run_id": "ct-b-smoke-20260908T081302Z-h20241029143832205713",
+      "terminal": "tool_budget_exceeded",
+      "tool_calls": 30,
+      "tokens": 169980,
+      "schema_delivery": false,
+      "all_pass": false
+    },
+    "review_files": [
+      "query_visible.json",
+      "planning_blueprint.json",
+      "trajectory.jsonl",
+      "final_raw_response.txt",
+      "parse_result.json",
+      "evaluation.json"
+    ]
+  },
+  {
+    "title": "Planner 预填实体且 Executor 耗尽预算",
+    "baseline": "C",
+    "sample_key": "human:h20241029143648613072",
+    "run_id": "ct-c-20260908T150012Z-h20241029143648613072",
+    "primary_failure": "agent_control_exhaustion",
+    "planner_flags": [
+      "planner_entity_violation",
+      "blueprint_execution_deviation"
+    ],
+    "terminal": "tool_budget_exceeded",
+    "tool_calls": 30,
+    "tokens": 286024,
+    "schema_delivery": false,
+    "environment_pass": false,
+    "logical_pass": false,
+    "all_pass": false,
+    "activity_status_counts": {},
+    "transport_status_counts": {},
+    "paired_peer": {
+      "baseline": "B",
+      "run_id": "ct-b-smoke-20260908T080950Z-h20241029143648613072",
+      "terminal": "tool_budget_exceeded",
+      "tool_calls": 30,
+      "tokens": 268994,
+      "schema_delivery": false,
+      "all_pass": false
+    },
+    "review_files": [
+      "query_visible.json",
+      "planning_blueprint.json",
+      "trajectory.jsonl",
+      "final_raw_response.txt",
+      "parse_result.json",
+      "evaluation.json"
+    ]
+  },
+  {
+    "title": "无 Planner 条件下持续 Agent-control failure",
+    "baseline": "B",
+    "sample_key": "human:h20241029143451793119",
+    "run_id": "ct-b-smoke-20260908T080851Z-h20241029143451793119",
+    "primary_failure": "agent_control_exhaustion",
+    "planner_flags": [],
+    "terminal": "tool_budget_exceeded",
+    "tool_calls": 30,
+    "tokens": 242314,
+    "schema_delivery": false,
+    "environment_pass": false,
+    "logical_pass": false,
+    "all_pass": false,
+    "activity_status_counts": {},
+    "transport_status_counts": {},
+    "paired_peer": {
+      "baseline": "C",
+      "run_id": "ct-c-20260908T145926Z-h20241029143451793119",
+      "terminal": "tool_budget_exceeded",
+      "tool_calls": 30,
+      "tokens": 209194,
+      "schema_delivery": false,
+      "all_pass": false
+    },
+    "review_files": [
+      "query_visible.json",
+      "trajectory.jsonl",
+      "final_raw_response.txt",
+      "parse_result.json",
+      "evaluation.json"
+    ]
+  }
+]

@@ -1,0 +1,172 @@
+{
+  "analysis_scope": "read_only_ct_b_ct_c_paired_failure_analysis",
+  "paired_n": 12,
+  "headline": {
+    "ct_b_final_response_count": 4,
+    "ct_c_final_response_count": 7,
+    "ct_b_schema_delivery_count": 4,
+    "ct_c_schema_delivery_count": 4,
+    "ct_b_evidence_backed_delivery_count": 4,
+    "ct_c_evidence_backed_delivery_count": 2,
+    "ct_b_all_pass_count": 0,
+    "ct_c_all_pass_count": 0
+  },
+  "cost_sensitivity": {
+    "all_12": {
+      "mean_token_delta_ct_c_minus_ct_b": -32732.83,
+      "relative_token_delta_percent": -14.24,
+      "mean_tool_call_delta": -5.33,
+      "relative_tool_call_delta_percent": -18.34,
+      "mean_latency_delta_seconds": -4.88,
+      "relative_latency_delta_percent": -6.91
+    },
+    "excluding_two_ct_c_zero_tool_samples": {
+      "n": 10,
+      "mean_token_delta_ct_c_minus_ct_b": 6649.60,
+      "relative_token_delta_percent": 2.92,
+      "mean_tool_call_delta": -0.40,
+      "relative_tool_call_delta_percent": -1.38,
+      "mean_latency_delta_seconds": 7.92,
+      "relative_latency_delta_percent": 11.75
+    },
+    "interpretation": "The apparent aggregate efficiency gain is dominated by two evidence-free early stops, not broad retrieval efficiency."
+  },
+  "failure_layers": {
+    "planner_representation": {
+      "trip_fact_consistency_mean": 1.0,
+      "source_text_location_mean": 0.9895833333,
+      "checklist_design_coverage_mean": 0.95,
+      "oracle_category_alignment_mean": 0.5986111111,
+      "planner_entity_violation_count": 3,
+      "planner_source_text_mismatch_count": 1,
+      "interpretation": "Basic facts were represented reliably, but category coverage was incomplete and schema validity did not prevent semantic violations."
+    },
+    "executor_control": {
+      "ct_b_budget_or_step_non_delivery": 8,
+      "ct_c_budget_or_step_non_delivery": 5,
+      "ct_c_zero_tool_final_count": 2,
+      "all_12_checklist_category_deviation": true,
+      "tool_execution_error_count": 0,
+      "blank_no_tool_response_treated_as_stop_count": 2,
+      "interpretation": "The bottleneck is model control and evidence acquisition policy, not tool runtime failure. The frozen termination protocol also treats a blank no-tool response as a stop signal."
+    },
+    "output_contract": {
+      "ct_b_final_but_schema_invalid": 0,
+      "ct_c_final_but_schema_invalid": 3,
+      "missing_intercity_start_end_samples": 2,
+      "unsupported_top_level_taxi_samples": 1,
+      "interpretation": "Three additional final responses were exactly offset by three schema failures."
+    },
+    "semantic_feasibility": {
+      "ct_c_schema_delivered": 4,
+      "ct_c_environment_macro_pass": 0,
+      "ct_c_all_pass": 0,
+      "ct_c_logical_macro_pass_but_schema_invalid": 1,
+      "common_delivered_ct_c_failures": [
+        "restaurant_opening_time",
+        "restaurant_repetition_or_meal_diversity",
+        "restaurant_price_or_availability",
+        "intercity_transport_cost",
+        "attraction_price_or_cost",
+        "chronological_or_spatial_consistency"
+      ],
+      "interpretation": "Generating a valid envelope did not imply grounded, feasible, constraint-satisfying execution."
+    }
+  },
+  "paired_case_diagnoses": [
+    {
+      "split": "easy",
+      "uid": "m20241028164642633824",
+      "transition": "B_delivery_to_C_non_delivery",
+      "primary_cause": "output_contract_regression",
+      "evidence": "CT-C finalized after 27 tool calls but omitted start/end on both airplane activities; environment micro also fell 72.7 to 53.6."
+    },
+    {
+      "split": "easy",
+      "uid": "m20241028164924049935",
+      "transition": "B_delivery_to_C_non_delivery",
+      "primary_cause": "output_contract_regression",
+      "evidence": "CT-C used 30 tools and finalized, but both airplane activities omitted required start/end; environment micro fell 64.3 to 31.8."
+    },
+    {
+      "split": "easy",
+      "uid": "m20241028164800617250",
+      "transition": "persistent_non_delivery",
+      "primary_cause": "agent_control_non_delivery",
+      "evidence": "Both conditions reached 30 tools; CT-C also prefilled an unrequested sandbox attraction in the blueprint."
+    },
+    {
+      "split": "easy",
+      "uid": "m20241028164815894420",
+      "transition": "B_non_delivery_to_C_delivery",
+      "primary_cause": "timely_retrieval_stop",
+      "evidence": "CT-C stopped after 28 tools and produced valid schema where CT-B exhausted 30, but environment micro was only 42.9 and logical micro 71.4."
+    },
+    {
+      "split": "medium",
+      "uid": "e20241028161334777418",
+      "transition": "B_non_delivery_to_C_delivery",
+      "primary_cause": "evidence_free_early_stop",
+      "evidence": "CT-C round 0 returned whitespace and no tool calls. The frozen harness interpreted this as retrieval stop and forced no-tool finalization. The resulting schema-valid plan used 12,035 tokens but had environment micro 22.2, so this is not a grounded planning gain."
+    },
+    {
+      "split": "medium",
+      "uid": "e20241028161119161993",
+      "transition": "persistent_non_delivery",
+      "primary_cause": "agent_control_non_delivery",
+      "evidence": "Both conditions used 30 tools without a final plan."
+    },
+    {
+      "split": "medium",
+      "uid": "e20241028161327496043",
+      "transition": "persistent_delivery_but_failure",
+      "primary_cause": "execution_consistency_regression",
+      "evidence": "CT-C used 5 more tools and 103,690 more tokens; environment micro fell 78.6 to 74.1 and logical micro fell 87.5 to 75.0."
+    },
+    {
+      "split": "medium",
+      "uid": "e20241028161015707983",
+      "transition": "persistent_non_delivery",
+      "primary_cause": "agent_control_non_delivery",
+      "evidence": "Both conditions used 30 tools and terminated without a final plan."
+    },
+    {
+      "split": "human",
+      "uid": "h20241029143451793119",
+      "transition": "persistent_non_delivery",
+      "primary_cause": "agent_control_non_delivery",
+      "evidence": "Both conditions exhausted 30 tools; no tool runtime errors occurred."
+    },
+    {
+      "split": "human",
+      "uid": "h20241029143648613072",
+      "transition": "persistent_non_delivery",
+      "primary_cause": "agent_control_plus_planner_semantic_violation",
+      "evidence": "Both conditions exhausted 30 tools, and CT-C blueprint prefilled an unrequested sandbox attraction."
+    },
+    {
+      "split": "human",
+      "uid": "h20241029143736524841",
+      "transition": "persistent_schema_delivery",
+      "primary_cause": "evidence_free_hallucinated_execution",
+      "evidence": "CT-C made zero tools and cut tokens sharply, but environment micro collapsed 78.6 to 9.1; blueprint also prefilled sandbox attractions."
+    },
+    {
+      "split": "human",
+      "uid": "h20241029143832205713",
+      "transition": "B_non_delivery_to_C_final_but_schema_invalid",
+      "primary_cause": "output_contract_near_miss",
+      "evidence": "CT-C stopped after 23 tools and achieved logical macro pass, but encoded taxi as an unsupported top-level activity and failed schema."
+    }
+  ],
+  "next_gate": {
+    "expand_to_36_now": false,
+    "recommended_work": [
+      "Deterministic entity-level observation-to-plan grounding audit",
+      "Manual case cards for the four delivery transitions, two zero-tool finals, and human split",
+      "Separate final-response rate, strict schema delivery, evidence-backed delivery, and All Pass in future reporting",
+      "Reproduce evaluator exceptions using saved outputs without changing plans",
+      "Only then decide whether a frozen CT-C-v2 or 36-query expansion is scientifically justified"
+    ]
+  }
+}

@@ -1,0 +1,3602 @@
+[
+  {
+    "idx": 1,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "easy",
+    "days": 3,
+    "primary_failure_category": "success",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": 0.8,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.7777777777777778
+  },
+  {
+    "idx": 2,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "easy",
+    "days": 3,
+    "primary_failure_category": "planning_constraint_failure",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": false,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": true
+    },
+    "chosen_route_coverage_rate": 1.0,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.5555555555555556
+  },
+  {
+    "idx": 3,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 3,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.5555555555555556
+  },
+  {
+    "idx": 4,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "easy",
+    "days": 3,
+    "primary_failure_category": "success",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": 0.4,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.5555555555555556
+  },
+  {
+    "idx": 5,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "easy",
+    "days": 3,
+    "primary_failure_category": "success",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": 0.6,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.7777777777777778
+  },
+  {
+    "idx": 6,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "easy",
+    "days": 3,
+    "primary_failure_category": "success",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": false,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": 1.0,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.5555555555555556
+  },
+  {
+    "idx": 7,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "easy",
+    "days": 3,
+    "primary_failure_category": "success",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": false,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": 1.0,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.6666666666666666
+  },
+  {
+    "idx": 8,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "easy",
+    "days": 3,
+    "primary_failure_category": "tool_execution_failure",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": true,
+      "evidence_insufficient_for_chosen_plan": false,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": true
+    },
+    "chosen_route_coverage_rate": 1.0,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.5555555555555556
+  },
+  {
+    "idx": 9,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 3,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.1111111111111111
+  },
+  {
+    "idx": 10,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "easy",
+    "days": 3,
+    "primary_failure_category": "success",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": false,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": 1.0,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.6666666666666666
+  },
+  {
+    "idx": 11,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "easy",
+    "days": 3,
+    "primary_failure_category": "success",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": false,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": 1.0,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.5555555555555556
+  },
+  {
+    "idx": 12,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 3,
+    "primary_failure_category": "planning_constraint_failure",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": false,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": true
+    },
+    "chosen_route_coverage_rate": 1.0,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.4444444444444444
+  },
+  {
+    "idx": 13,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 3,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": false,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": 1.0,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.6666666666666666
+  },
+  {
+    "idx": 14,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "easy",
+    "days": 3,
+    "primary_failure_category": "success",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": 0.4,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.6666666666666666
+  },
+  {
+    "idx": 15,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 3,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": false,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": 1.0,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.6666666666666666
+  },
+  {
+    "idx": 16,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "easy",
+    "days": 3,
+    "primary_failure_category": "success",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": 0.8,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.6666666666666666
+  },
+  {
+    "idx": 17,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "easy",
+    "days": 3,
+    "primary_failure_category": "success",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": false,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": 1.0,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.5555555555555556
+  },
+  {
+    "idx": 18,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 3,
+    "primary_failure_category": "planning_constraint_failure",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": false,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": true
+    },
+    "chosen_route_coverage_rate": 1.0,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.5555555555555556
+  },
+  {
+    "idx": 19,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "easy",
+    "days": 3,
+    "primary_failure_category": "success",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": 0.4,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.5555555555555556
+  },
+  {
+    "idx": 20,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 3,
+    "primary_failure_category": "evidence_insufficient_for_chosen_plan",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": 0.4,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.5555555555555556
+  },
+  {
+    "idx": 21,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 5,
+    "primary_failure_category": "evidence_insufficient_for_chosen_plan",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": 0.6666666666666666,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.2
+  },
+  {
+    "idx": 22,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 5,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.06666666666666667
+  },
+  {
+    "idx": 23,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "easy",
+    "days": 5,
+    "primary_failure_category": "success",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": 0.6666666666666666,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.4666666666666667
+  },
+  {
+    "idx": 24,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 5,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.2
+  },
+  {
+    "idx": 25,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 5,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.3333333333333333
+  },
+  {
+    "idx": 26,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 5,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.26666666666666666
+  },
+  {
+    "idx": 27,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 5,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.26666666666666666
+  },
+  {
+    "idx": 28,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 5,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.06666666666666667
+  },
+  {
+    "idx": 29,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 5,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.3333333333333333
+  },
+  {
+    "idx": 30,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 5,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.13333333333333333
+  },
+  {
+    "idx": 31,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 5,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.26666666666666666
+  },
+  {
+    "idx": 32,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "easy",
+    "days": 5,
+    "primary_failure_category": "success",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": false,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": 1.0,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.6666666666666666
+  },
+  {
+    "idx": 33,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 5,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.26666666666666666
+  },
+  {
+    "idx": 34,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "easy",
+    "days": 5,
+    "primary_failure_category": "planning_constraint_failure",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": false,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": true
+    },
+    "chosen_route_coverage_rate": 1.0,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.8
+  },
+  {
+    "idx": 35,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 5,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.2
+  },
+  {
+    "idx": 36,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "easy",
+    "days": 5,
+    "primary_failure_category": "success",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": 0.6666666666666666,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.2
+  },
+  {
+    "idx": 37,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "easy",
+    "days": 5,
+    "primary_failure_category": "success",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": false,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": 1.0,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.3333333333333333
+  },
+  {
+    "idx": 38,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 5,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.6
+  },
+  {
+    "idx": 39,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 5,
+    "primary_failure_category": "evidence_insufficient_for_chosen_plan",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": 0.6666666666666666,
+    "evidence_grounding_rate": 0.9615384615384616,
+    "oracle_alignment_rate": 0.26666666666666666
+  },
+  {
+    "idx": 40,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "easy",
+    "days": 5,
+    "primary_failure_category": "evidence_insufficient_for_chosen_plan",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": 0.6666666666666666,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.06666666666666667
+  },
+  {
+    "idx": 41,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.09523809523809523
+  },
+  {
+    "idx": 42,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.19047619047619047
+  },
+  {
+    "idx": 43,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.19047619047619047
+  },
+  {
+    "idx": 44,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.0
+  },
+  {
+    "idx": 45,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.047619047619047616
+  },
+  {
+    "idx": 46,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.3333333333333333
+  },
+  {
+    "idx": 47,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.47619047619047616
+  },
+  {
+    "idx": 48,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.047619047619047616
+  },
+  {
+    "idx": 49,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.5714285714285714
+  },
+  {
+    "idx": 50,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "easy",
+    "days": 7,
+    "primary_failure_category": "success",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": 0.7692307692307693,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.38095238095238093
+  },
+  {
+    "idx": 51,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.38095238095238093
+  },
+  {
+    "idx": 52,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.14285714285714285
+  },
+  {
+    "idx": 53,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.047619047619047616
+  },
+  {
+    "idx": 54,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.38095238095238093
+  },
+  {
+    "idx": 55,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.42857142857142855
+  },
+  {
+    "idx": 56,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.19047619047619047
+  },
+  {
+    "idx": 57,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.23809523809523808
+  },
+  {
+    "idx": 58,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.42857142857142855
+  },
+  {
+    "idx": 59,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.047619047619047616
+  },
+  {
+    "idx": 60,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.19047619047619047
+  },
+  {
+    "idx": 61,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 3,
+    "primary_failure_category": "evidence_utilization_or_grounding_failure",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": false,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": 1.0,
+    "evidence_grounding_rate": 0.9090909090909091,
+    "oracle_alignment_rate": 0.4444444444444444
+  },
+  {
+    "idx": 62,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "medium",
+    "days": 3,
+    "primary_failure_category": "planning_constraint_failure",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": false,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": true
+    },
+    "chosen_route_coverage_rate": 1.0,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.7777777777777778
+  },
+  {
+    "idx": 63,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 3,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.6666666666666666
+  },
+  {
+    "idx": 64,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "medium",
+    "days": 3,
+    "primary_failure_category": "evidence_insufficient_for_chosen_plan",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": 0.4,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.5555555555555556
+  },
+  {
+    "idx": 65,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "medium",
+    "days": 3,
+    "primary_failure_category": "success",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": 0.4,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.5555555555555556
+  },
+  {
+    "idx": 66,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "medium",
+    "days": 3,
+    "primary_failure_category": "success",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": 0.4,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.6666666666666666
+  },
+  {
+    "idx": 67,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "medium",
+    "days": 3,
+    "primary_failure_category": "success",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": false,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": 1.0,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.5555555555555556
+  },
+  {
+    "idx": 68,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 3,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.5555555555555556
+  },
+  {
+    "idx": 69,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 3,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.6666666666666666
+  },
+  {
+    "idx": 70,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 3,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.7777777777777778
+  },
+  {
+    "idx": 71,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 3,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.5555555555555556
+  },
+  {
+    "idx": 72,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 3,
+    "primary_failure_category": "planning_constraint_failure",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": false,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": true
+    },
+    "chosen_route_coverage_rate": 1.0,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.6666666666666666
+  },
+  {
+    "idx": 73,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "medium",
+    "days": 3,
+    "primary_failure_category": "planning_constraint_failure",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": false,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": true
+    },
+    "chosen_route_coverage_rate": 1.0,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.5555555555555556
+  },
+  {
+    "idx": 74,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "medium",
+    "days": 3,
+    "primary_failure_category": "success",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": false,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": 1.0,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.6666666666666666
+  },
+  {
+    "idx": 75,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 3,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.5555555555555556
+  },
+  {
+    "idx": 76,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 3,
+    "primary_failure_category": "evidence_utilization_or_grounding_failure",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": false,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": 1.0,
+    "evidence_grounding_rate": 0.8823529411764706,
+    "oracle_alignment_rate": 0.6666666666666666
+  },
+  {
+    "idx": 77,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 3,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.6666666666666666
+  },
+  {
+    "idx": 78,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 3,
+    "primary_failure_category": "evidence_insufficient_for_chosen_plan",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": 0.4,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.5555555555555556
+  },
+  {
+    "idx": 79,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "medium",
+    "days": 3,
+    "primary_failure_category": "success",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": false,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": 1.0,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.6666666666666666
+  },
+  {
+    "idx": 80,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 3,
+    "primary_failure_category": "evidence_utilization_or_grounding_failure",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": false,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": 1.0,
+    "evidence_grounding_rate": 0.9166666666666666,
+    "oracle_alignment_rate": 0.6666666666666666
+  },
+  {
+    "idx": 81,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 5,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.6
+  },
+  {
+    "idx": 82,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "medium",
+    "days": 5,
+    "primary_failure_category": "success",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": 0.6666666666666666,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.5333333333333333
+  },
+  {
+    "idx": 83,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 5,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.5333333333333333
+  },
+  {
+    "idx": 84,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 5,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.26666666666666666
+  },
+  {
+    "idx": 85,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 5,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.0
+  },
+  {
+    "idx": 86,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 5,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.4666666666666667
+  },
+  {
+    "idx": 87,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 5,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.5333333333333333
+  },
+  {
+    "idx": 88,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 5,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.0
+  },
+  {
+    "idx": 89,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 5,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.6
+  },
+  {
+    "idx": 90,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 5,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.26666666666666666
+  },
+  {
+    "idx": 91,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 5,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.06666666666666667
+  },
+  {
+    "idx": 92,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 5,
+    "primary_failure_category": "evidence_insufficient_for_chosen_plan",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": 0.6666666666666666,
+    "evidence_grounding_rate": 0.9047619047619048,
+    "oracle_alignment_rate": 0.6
+  },
+  {
+    "idx": 93,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 5,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.0
+  },
+  {
+    "idx": 94,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "medium",
+    "days": 5,
+    "primary_failure_category": "success",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": 0.6666666666666666,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.26666666666666666
+  },
+  {
+    "idx": 95,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 5,
+    "primary_failure_category": "evidence_insufficient_for_chosen_plan",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": 0.5555555555555556,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.26666666666666666
+  },
+  {
+    "idx": 96,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 5,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.0
+  },
+  {
+    "idx": 97,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 5,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.26666666666666666
+  },
+  {
+    "idx": 98,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 5,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.06666666666666667
+  },
+  {
+    "idx": 99,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 5,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": true,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.6
+  },
+  {
+    "idx": 100,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 5,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.26666666666666666
+  },
+  {
+    "idx": 101,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.09523809523809523
+  },
+  {
+    "idx": 102,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.0
+  },
+  {
+    "idx": 103,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.42857142857142855
+  },
+  {
+    "idx": 104,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.047619047619047616
+  },
+  {
+    "idx": 105,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.19047619047619047
+  },
+  {
+    "idx": 106,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.047619047619047616
+  },
+  {
+    "idx": 107,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.14285714285714285
+  },
+  {
+    "idx": 108,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.047619047619047616
+  },
+  {
+    "idx": 109,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.19047619047619047
+  },
+  {
+    "idx": 110,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 7,
+    "primary_failure_category": "evidence_insufficient_for_chosen_plan",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": 0.7692307692307693,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.3333333333333333
+  },
+  {
+    "idx": 111,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.38095238095238093
+  },
+  {
+    "idx": 112,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.3333333333333333
+  },
+  {
+    "idx": 113,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.047619047619047616
+  },
+  {
+    "idx": 114,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.14285714285714285
+  },
+  {
+    "idx": 115,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.0
+  },
+  {
+    "idx": 116,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.09523809523809523
+  },
+  {
+    "idx": 117,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.047619047619047616
+  },
+  {
+    "idx": 118,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.047619047619047616
+  },
+  {
+    "idx": 119,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.047619047619047616
+  },
+  {
+    "idx": 120,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.14285714285714285
+  },
+  {
+    "idx": 121,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 3,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.4444444444444444
+  },
+  {
+    "idx": 122,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "hard",
+    "days": 3,
+    "primary_failure_category": "planning_constraint_failure",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": false,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": true
+    },
+    "chosen_route_coverage_rate": 1.0,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.5555555555555556
+  },
+  {
+    "idx": 123,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 3,
+    "primary_failure_category": "evidence_insufficient_for_chosen_plan",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": 0.8,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.5555555555555556
+  },
+  {
+    "idx": 124,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 3,
+    "primary_failure_category": "planning_constraint_failure",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": false,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": true
+    },
+    "chosen_route_coverage_rate": 1.0,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.5555555555555556
+  },
+  {
+    "idx": 125,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 3,
+    "primary_failure_category": "evidence_insufficient_for_chosen_plan",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": 0.4,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.5555555555555556
+  },
+  {
+    "idx": 126,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 3,
+    "primary_failure_category": "evidence_insufficient_for_chosen_plan",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": 0.4,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.5555555555555556
+  },
+  {
+    "idx": 127,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "hard",
+    "days": 3,
+    "primary_failure_category": "planning_constraint_failure",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": false,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": true
+    },
+    "chosen_route_coverage_rate": 1.0,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.4444444444444444
+  },
+  {
+    "idx": 128,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "hard",
+    "days": 3,
+    "primary_failure_category": "success",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": false,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": 1.0,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.5555555555555556
+  },
+  {
+    "idx": 129,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 3,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.5555555555555556
+  },
+  {
+    "idx": 130,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 3,
+    "primary_failure_category": "planning_constraint_failure",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": false,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": true
+    },
+    "chosen_route_coverage_rate": 1.0,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.5555555555555556
+  },
+  {
+    "idx": 131,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "hard",
+    "days": 3,
+    "primary_failure_category": "success",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": 0.4,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.5555555555555556
+  },
+  {
+    "idx": 132,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 3,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.4444444444444444
+  },
+  {
+    "idx": 133,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 3,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.5555555555555556
+  },
+  {
+    "idx": 134,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 3,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.5555555555555556
+  },
+  {
+    "idx": 135,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "hard",
+    "days": 3,
+    "primary_failure_category": "success",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": 0.4,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.6666666666666666
+  },
+  {
+    "idx": 136,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 3,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.5555555555555556
+  },
+  {
+    "idx": 137,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "hard",
+    "days": 3,
+    "primary_failure_category": "success",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": false,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": 1.0,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.5555555555555556
+  },
+  {
+    "idx": 138,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 3,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.4444444444444444
+  },
+  {
+    "idx": 139,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "hard",
+    "days": 3,
+    "primary_failure_category": "evidence_insufficient_for_chosen_plan",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": 0.4,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.6666666666666666
+  },
+  {
+    "idx": 140,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 3,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.4444444444444444
+  },
+  {
+    "idx": 141,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 5,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.0
+  },
+  {
+    "idx": 142,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 5,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.5333333333333333
+  },
+  {
+    "idx": 143,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 5,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.2
+  },
+  {
+    "idx": 144,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "hard",
+    "days": 5,
+    "primary_failure_category": "planning_constraint_failure",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": false,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": true
+    },
+    "chosen_route_coverage_rate": 1.0,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.26666666666666666
+  },
+  {
+    "idx": 145,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 5,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.06666666666666667
+  },
+  {
+    "idx": 146,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 5,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.0
+  },
+  {
+    "idx": 147,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 5,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.3333333333333333
+  },
+  {
+    "idx": 148,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 5,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.4
+  },
+  {
+    "idx": 149,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 5,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.4
+  },
+  {
+    "idx": 150,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 5,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.6
+  },
+  {
+    "idx": 151,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 5,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.4666666666666667
+  },
+  {
+    "idx": 152,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 5,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.13333333333333333
+  },
+  {
+    "idx": 153,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 5,
+    "primary_failure_category": "planning_constraint_failure",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": false,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": true
+    },
+    "chosen_route_coverage_rate": 1.0,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.4
+  },
+  {
+    "idx": 154,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 5,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.13333333333333333
+  },
+  {
+    "idx": 155,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 5,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.2
+  },
+  {
+    "idx": 156,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 5,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.2
+  },
+  {
+    "idx": 157,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 5,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.6666666666666666
+  },
+  {
+    "idx": 158,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 5,
+    "primary_failure_category": "evidence_insufficient_for_chosen_plan",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": 0.6666666666666666,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.6666666666666666
+  },
+  {
+    "idx": 159,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 5,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": 0.6666666666666666,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.4
+  },
+  {
+    "idx": 160,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 5,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.0
+  },
+  {
+    "idx": 161,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.19047619047619047
+  },
+  {
+    "idx": 162,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.09523809523809523
+  },
+  {
+    "idx": 163,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.38095238095238093
+  },
+  {
+    "idx": 164,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.2857142857142857
+  },
+  {
+    "idx": 165,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "hard",
+    "days": 7,
+    "primary_failure_category": "evidence_insufficient_for_chosen_plan",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": 0.7692307692307693,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.3333333333333333
+  },
+  {
+    "idx": 166,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.5238095238095238
+  },
+  {
+    "idx": 167,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.38095238095238093
+  },
+  {
+    "idx": 168,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.09523809523809523
+  },
+  {
+    "idx": 169,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "hard",
+    "days": 7,
+    "primary_failure_category": "evidence_utilization_or_grounding_failure",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": false,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": 1.0,
+    "evidence_grounding_rate": 0.972972972972973,
+    "oracle_alignment_rate": 0.5238095238095238
+  },
+  {
+    "idx": 170,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.38095238095238093
+  },
+  {
+    "idx": 171,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.0
+  },
+  {
+    "idx": 172,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 7,
+    "primary_failure_category": "evidence_utilization_or_grounding_failure",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": false,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": 1.0,
+    "evidence_grounding_rate": 0.9411764705882353,
+    "oracle_alignment_rate": 0.14285714285714285
+  },
+  {
+    "idx": 173,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.38095238095238093
+  },
+  {
+    "idx": 174,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.3333333333333333
+  },
+  {
+    "idx": 175,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.42857142857142855
+  },
+  {
+    "idx": 176,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "hard",
+    "days": 7,
+    "primary_failure_category": "success",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": 0.6923076923076923,
+    "evidence_grounding_rate": 0.9705882352941176,
+    "oracle_alignment_rate": 0.3333333333333333
+  },
+  {
+    "idx": 177,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.19047619047619047
+  },
+  {
+    "idx": 178,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 7,
+    "primary_failure_category": "evidence_insufficient_for_chosen_plan",
+    "failure_flags": {
+      "non_delivery_or_agent_control": false,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": false,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": 0.6923076923076923,
+    "evidence_grounding_rate": 1.0,
+    "oracle_alignment_rate": 0.42857142857142855
+  },
+  {
+    "idx": 179,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.23809523809523808
+  },
+  {
+    "idx": 180,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 7,
+    "primary_failure_category": "non_delivery_or_agent_control",
+    "failure_flags": {
+      "non_delivery_or_agent_control": true,
+      "tool_execution_failure": false,
+      "evidence_insufficient_for_chosen_plan": true,
+      "evidence_utilization_or_grounding_failure": true,
+      "planning_constraint_failure": false
+    },
+    "chosen_route_coverage_rate": null,
+    "evidence_grounding_rate": null,
+    "oracle_alignment_rate": 0.0
+  }
+]

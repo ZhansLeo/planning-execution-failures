@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#FAFAF7"/>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#252525}.title{font-size:36px;font-weight:700}.sub{font-size:19px;fill:#666}.lab{font-size:18px}.small{font-size:15px}.val{font-size:17px;font-weight:700}</style>
+<text x="80" y="70" class="title">Failure → Mechanism → Measured Effect</text>
+<text x="80" y="105" class="sub">四阶段研究链的核心结论</text>
+<rect x="80" y="180" width="390" height="95" rx="12" fill="#FFF" stroke="#4477AA" stroke-width="3"/>
+<text x="275" y="236" text-anchor="middle" class="lab">Oracle evidence 已给定</text>
+<text x="535" y="238" class="title" fill="#4477AA">→</text>
+<rect x="620" y="180" width="330" height="95" rx="12" fill="#4477AA" opacity=".9"/>
+<text x="785" y="236" text-anchor="middle" class="lab" fill="white">Direct planning</text>
+<text x="1015" y="238" class="title" fill="#4477AA">→</text>
+<rect x="1100" y="180" width="420" height="95" rx="12" fill="#FFF" stroke="#4477AA" stroke-width="3"/>
+<text x="1310" y="236" text-anchor="middle" class="lab">高 Delivery，Final Pass 仍低</text>
+<rect x="80" y="340" width="390" height="95" rx="12" fill="#FFF" stroke="#EE6677" stroke-width="3"/>
+<text x="275" y="396" text-anchor="middle" class="lab">自主检索与 Agent 控制失败</text>
+<text x="535" y="398" class="title" fill="#EE6677">→</text>
+<rect x="620" y="340" width="330" height="95" rx="12" fill="#EE6677" opacity=".9"/>
+<text x="785" y="396" text-anchor="middle" class="lab" fill="white">Official tools + ReAct</text>
+<text x="1015" y="398" class="title" fill="#EE6677">→</text>
+<rect x="1100" y="340" width="420" height="95" rx="12" fill="#FFF" stroke="#EE6677" stroke-width="3"/>
+<text x="1310" y="396" text-anchor="middle" class="lab">Delivery −60pp，成本显著上升</text>
+<rect x="80" y="500" width="390" height="95" rx="12" fill="#FFF" stroke="#228833" stroke-width="3"/>
+<text x="275" y="556" text-anchor="middle" class="lab">全局路线与检索失焦</text>
+<text x="535" y="558" class="title" fill="#228833">→</text>
+<rect x="620" y="500" width="330" height="95" rx="12" fill="#228833" opacity=".9"/>
+<text x="785" y="556" text-anchor="middle" class="lab" fill="white">Explicit Planner</text>
+<text x="1015" y="558" class="title" fill="#228833">→</text>
+<rect x="1100" y="500" width="420" height="95" rx="12" fill="#FFF" stroke="#228833" stroke-width="3"/>
+<text x="1310" y="556" text-anchor="middle" class="lab">Delivery +5pp，Token 略降</text>
+<rect x="80" y="660" width="390" height="95" rx="12" fill="#FFF" stroke="#CCBB44" stroke-width="3"/>
+<text x="275" y="716" text-anchor="middle" class="lab">候选错误与格式问题</text>
+<text x="535" y="718" class="title" fill="#CCBB44">→</text>
+<rect x="620" y="660" width="330" height="95" rx="12" fill="#CCBB44" opacity=".9"/>
+<text x="785" y="716" text-anchor="middle" class="lab" fill="white">Verifier + Single Replan</text>
+<text x="1015" y="718" class="title" fill="#CCBB44">→</text>
+<rect x="1100" y="660" width="420" height="95" rx="12" fill="#FFF" stroke="#CCBB44" stroke-width="3"/>
+<text x="1310" y="716" text-anchor="middle" class="lab">Delivery +1.67pp，Final Pass 不变</text>
+</svg>

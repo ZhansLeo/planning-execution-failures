@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#FAFAF7"/>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#252525}.title{font-size:36px;font-weight:700}.sub{font-size:19px;fill:#666}.lab{font-size:18px}.small{font-size:15px}.val{font-size:17px;font-weight:700}</style>
+<text x="80" y="70" class="title">成本与运行开销</text>
+<text x="80" y="105" class="sub">D 增加验证成本，但没有净增 Final Pass</text>
+<text x="300.0" y="155" text-anchor="middle" class="lab">每样本 Token</text>
+<rect x="120" y="672.0" width="75" height="88.0" rx="5" fill="#4477AA"/>
+<text x="157.5" y="663.0" text-anchor="middle" class="small">10.9k</text>
+<text x="157.5" y="795" text-anchor="middle" class="lab">A</text>
+<rect x="220" y="294.3" width="75" height="465.7" rx="5" fill="#EE6677"/>
+<text x="257.5" y="285.3" text-anchor="middle" class="small">57.6k</text>
+<text x="257.5" y="795" text-anchor="middle" class="lab">B</text>
+<rect x="320" y="307.8" width="75" height="452.2" rx="5" fill="#228833"/>
+<text x="357.5" y="298.8" text-anchor="middle" class="small">56.0k</text>
+<text x="357.5" y="795" text-anchor="middle" class="lab">C</text>
+<rect x="420" y="251.1" width="75" height="508.9" rx="5" fill="#CCBB44"/>
+<text x="457.5" y="242.1" text-anchor="middle" class="small">63.0k</text>
+<text x="457.5" y="795" text-anchor="middle" class="lab">D</text>
+<text x="805.0" y="155" text-anchor="middle" class="lab">平均延迟</text>
+<rect x="625" y="706.2" width="75" height="53.8" rx="5" fill="#4477AA"/>
+<text x="662.5" y="697.2" text-anchor="middle" class="small">4.7s</text>
+<text x="662.5" y="795" text-anchor="middle" class="lab">A</text>
+<rect x="725" y="316.3" width="75" height="443.7" rx="5" fill="#EE6677"/>
+<text x="762.5" y="307.3" text-anchor="middle" class="small">38.6s</text>
+<text x="762.5" y="795" text-anchor="middle" class="lab">B</text>
+<rect x="825" y="306.7" width="75" height="453.3" rx="5" fill="#228833"/>
+<text x="862.5" y="297.7" text-anchor="middle" class="small">39.5s</text>
+<text x="862.5" y="795" text-anchor="middle" class="lab">C</text>
+<rect x="925" y="251.1" width="75" height="508.9" rx="5" fill="#CCBB44"/>
+<text x="962.5" y="242.1" text-anchor="middle" class="small">44.3s</text>
+<text x="962.5" y="795" text-anchor="middle" class="lab">D</text>
+<text x="1310.0" y="155" text-anchor="middle" class="lab">平均工具调用</text>
+<rect x="1130" y="760.0" width="75" height="0.0" rx="5" fill="#4477AA"/>
+<text x="1167.5" y="751.0" text-anchor="middle" class="small">0.0</text>
+<text x="1167.5" y="795" text-anchor="middle" class="lab">A</text>
+<rect x="1230" y="251.1" width="75" height="508.9" rx="5" fill="#EE6677"/>
+<text x="1267.5" y="242.1" text-anchor="middle" class="small">19.4</text>
+<text x="1267.5" y="795" text-anchor="middle" class="lab">B</text>
+<rect x="1330" y="293.0" width="75" height="467.0" rx="5" fill="#228833"/>
+<text x="1367.5" y="284.0" text-anchor="middle" class="small">17.8</text>
+<text x="1367.5" y="795" text-anchor="middle" class="lab">C</text>
+<rect x="1430" y="299.4" width="75" height="460.6" rx="5" fill="#CCBB44"/>
+<text x="1467.5" y="290.4" text-anchor="middle" class="small">17.6</text>
+<text x="1467.5" y="795" text-anchor="middle" class="lab">D</text>
+</svg>

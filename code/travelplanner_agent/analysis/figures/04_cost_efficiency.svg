@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#FAFAF7"/>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#252525}.title{font-size:36px;font-weight:700}.sub{font-size:19px;fill:#666}.lab{font-size:18px}.small{font-size:15px}.val{font-size:17px;font-weight:700}</style>
+<text x="80" y="70" class="title">Final Pass–Token 成本效率</text>
+<text x="80" y="105" class="sub">右上不一定更好；理想方向是左上</text>
+<line x1="180" y1="760" x2="1430" y2="760" stroke="#444"/>
+<line x1="180" y1="180" x2="180" y2="760" stroke="#444"/>
+<circle cx="214.8" cy="577.4" r="26" fill="#4477AA"/>
+<text x="214.8" y="584.4" text-anchor="middle" class="val" fill="white">A</text>
+<text x="250.8" y="557.4" class="small">13.89% / 10.9k</text>
+<circle cx="1209.0" cy="416.3" r="26" fill="#EE6677"/>
+<text x="1209.0" y="423.3" text-anchor="middle" class="val" fill="white">B</text>
+<text x="1245.0" y="396.3" class="small">15.56% / 57.6k</text>
+<circle cx="1173.6" cy="362.6" r="26" fill="#228833"/>
+<text x="1173.6" y="369.6" text-anchor="middle" class="val" fill="white">C</text>
+<text x="1209.6" y="342.6" class="small">16.11% / 56.0k</text>
+<circle cx="1322.8" cy="362.6" r="26" fill="#CCBB44"/>
+<text x="1322.8" y="369.6" text-anchor="middle" class="val" fill="white">D</text>
+<text x="1358.8" y="342.6" class="small">16.11% / 63.0k</text>
+</svg>

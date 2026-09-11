@@ -1,0 +1,232 @@
+{
+  "status": "ok",
+  "data_source": "official local fixed sandbox",
+  "tool_checks": [
+    {
+      "tool": "attractions_select",
+      "arguments": {
+        "city": "杭州",
+        "key": "name",
+        "op": "contains",
+        "value": ""
+      },
+      "success": true,
+      "error": null,
+      "latency_seconds": 0.7822456000139937
+    },
+    {
+      "tool": "attractions_keys",
+      "arguments": {
+        "city": "杭州"
+      },
+      "success": true,
+      "error": null,
+      "latency_seconds": 6.400002166628838e-05
+    },
+    {
+      "tool": "attractions_id_is_open",
+      "arguments": {
+        "city": "杭州",
+        "id": 0,
+        "time": "10:00"
+      },
+      "success": true,
+      "error": null,
+      "latency_seconds": 0.0003823000006377697
+    },
+    {
+      "tool": "attractions_nearby",
+      "arguments": {
+        "city": "杭州",
+        "point": "灵隐寺",
+        "topk": 3,
+        "dist": 5
+      },
+      "success": true,
+      "error": null,
+      "latency_seconds": 0.023420500045176595
+    },
+    {
+      "tool": "attractions_types",
+      "arguments": {
+        "city": "杭州"
+      },
+      "success": true,
+      "error": null,
+      "latency_seconds": 7.90000194683671e-05
+    },
+    {
+      "tool": "next_page",
+      "arguments": {},
+      "success": true,
+      "error": null,
+      "latency_seconds": 1.3899989426136017e-05
+    },
+    {
+      "tool": "accommodations_select",
+      "arguments": {
+        "city": "杭州",
+        "key": "name",
+        "op": "contains",
+        "value": ""
+      },
+      "success": true,
+      "error": null,
+      "latency_seconds": 0.0008045000140555203
+    },
+    {
+      "tool": "accommodations_keys",
+      "arguments": {
+        "city": "杭州"
+      },
+      "success": true,
+      "error": null,
+      "latency_seconds": 3.460003063082695e-05
+    },
+    {
+      "tool": "accommodations_nearby",
+      "arguments": {
+        "city": "杭州",
+        "point": "杭州西湖湖滨平海路亚朵酒店",
+        "topk": 3,
+        "dist": 5
+      },
+      "success": true,
+      "error": null,
+      "latency_seconds": 0.021812699967995286
+    },
+    {
+      "tool": "restaurants_select",
+      "arguments": {
+        "city": "杭州",
+        "key": "name",
+        "op": "contains",
+        "value": ""
+      },
+      "success": true,
+      "error": null,
+      "latency_seconds": 0.0008696999866515398
+    },
+    {
+      "tool": "restaurants_keys",
+      "arguments": {
+        "city": "杭州"
+      },
+      "success": true,
+      "error": null,
+      "latency_seconds": 3.659998765215278e-05
+    },
+    {
+      "tool": "restaurants_id_is_open",
+      "arguments": {
+        "city": "杭州",
+        "id": 0,
+        "time": "12:00"
+      },
+      "success": true,
+      "error": null,
+      "latency_seconds": 0.00018550001550465822
+    },
+    {
+      "tool": "restaurants_nearby",
+      "arguments": {
+        "city": "杭州",
+        "point": "杭州西湖国宾馆·西湖第一名园·紫薇厅",
+        "topk": 3,
+        "dist": 5
+      },
+      "success": true,
+      "error": null,
+      "latency_seconds": 0.026542399951722473
+    },
+    {
+      "tool": "restaurants_with_recommended_food",
+      "arguments": {
+        "city": "杭州",
+        "food": "东坡焖肉"
+      },
+      "success": true,
+      "error": null,
+      "latency_seconds": 0.0008285999647341669
+    },
+    {
+      "tool": "restaurants_cuisine",
+      "arguments": {
+        "city": "杭州"
+      },
+      "success": true,
+      "error": null,
+      "latency_seconds": 8.329999400302768e-05
+    },
+    {
+      "tool": "intercity_transport_select",
+      "arguments": {
+        "start_city": "上海",
+        "end_city": "杭州",
+        "intercity_type": "train",
+        "earliest_leave_time": "07:00"
+      },
+      "success": true,
+      "error": null,
+      "latency_seconds": 0.0016894000000320375
+    },
+    {
+      "tool": "intercity_transport_select",
+      "arguments": {
+        "start_city": "上海",
+        "end_city": "杭州",
+        "intercity_type": "airplane",
+        "earliest_leave_time": "07:00"
+      },
+      "success": true,
+      "error": null,
+      "latency_seconds": 0.0011440999805927277
+    },
+    {
+      "tool": "poi_lat_lon_search",
+      "arguments": {
+        "city": "杭州",
+        "name": "灵隐寺"
+      },
+      "success": true,
+      "error": null,
+      "latency_seconds": 2.500001573935151e-05
+    },
+    {
+      "tool": "goto",
+      "arguments": {
+        "city": "杭州",
+        "start": "灵隐寺",
+        "end": "杭州西湖国宾馆·西湖第一名园·紫薇厅",
+        "start_time": "11:00",
+        "transport_type": "taxi"
+      },
+      "success": true,
+      "error": null,
+      "latency_seconds": 0.00012310000602155924
+    },
+    {
+      "tool": "attractions_select",
+      "arguments": {
+        "city": "杭州",
+        "key": "name",
+        "op": "eq",
+        "value": "__no_such_poi__"
+      },
+      "success": true,
+      "error": null,
+      "latency_seconds": 0.00041740003507584333
+    },
+    {
+      "tool": "goto",
+      "arguments": {
+        "city": "杭州"
+      },
+      "success": false,
+      "error": "Missing required argument: start; Missing required argument: end; Missing required argument: start_time; Missing required argument: transport_type",
+      "latency_seconds": 6.299989763647318e-06
+    }
+  ],
+  "empty_result_observed": true,
+  "invalid_arguments_rejected": true
+}

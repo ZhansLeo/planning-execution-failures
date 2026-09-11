@@ -1,0 +1,244 @@
+{
+  "experiment_id": "stage-a-full-v1",
+  "baseline": "direct",
+  "mode": "batch",
+  "total": 180,
+  "delivered": 171,
+  "delivery_rate": 0.95,
+  "commonsense_macro_pass_rate": 0.25,
+  "hard_macro_pass_rate": 0.5388888888888889,
+  "final_pass_rate": 0.1388888888888889,
+  "commonsense_micro_pass_rate": 0.7972222222222223,
+  "hard_micro_pass_rate": 0.6952380952380952,
+  "constraint_pass": {
+    "is_reasonable_visiting_city": {
+      "pass": 160,
+      "total": 171,
+      "rate": 0.935672514619883
+    },
+    "is_valid_restaurants": {
+      "pass": 107,
+      "total": 171,
+      "rate": 0.6257309941520468
+    },
+    "is_valid_attractions": {
+      "pass": 171,
+      "total": 171,
+      "rate": 1.0
+    },
+    "is_valid_accommodation": {
+      "pass": 92,
+      "total": 171,
+      "rate": 0.5380116959064327
+    },
+    "is_valid_transportation": {
+      "pass": 127,
+      "total": 171,
+      "rate": 0.7426900584795322
+    },
+    "is_valid_information_in_current_city": {
+      "pass": 171,
+      "total": 171,
+      "rate": 1.0
+    },
+    "is_valid_information_in_sandbox": {
+      "pass": 162,
+      "total": 171,
+      "rate": 0.9473684210526315
+    },
+    "is_not_absent": {
+      "pass": 158,
+      "total": 171,
+      "rate": 0.9239766081871345
+    },
+    "valid_cost": {
+      "pass": 108,
+      "total": 149,
+      "rate": 0.7248322147651006
+    },
+    "valid_room_rule": {
+      "pass": 50,
+      "total": 64,
+      "rate": 0.78125
+    },
+    "valid_room_type": {
+      "pass": 56,
+      "total": 57,
+      "rate": 0.9824561403508771
+    },
+    "valid_cuisine": {
+      "pass": 33,
+      "total": 37,
+      "rate": 0.8918918918918919
+    },
+    "valid_transportation": {
+      "pass": 45,
+      "total": 45,
+      "rate": 1.0
+    }
+  },
+  "groups": {
+    "all": {
+      "total": 180,
+      "delivery_rate": 0.95,
+      "commonsense_macro_pass_rate": 0.25,
+      "hard_macro_pass_rate": 0.5388888888888889,
+      "final_pass_rate": 0.1388888888888889
+    },
+    "level:easy": {
+      "total": 60,
+      "delivery_rate": 0.9333333333333333,
+      "commonsense_macro_pass_rate": 0.26666666666666666,
+      "hard_macro_pass_rate": 0.7166666666666667,
+      "final_pass_rate": 0.2
+    },
+    "days:3": {
+      "total": 60,
+      "delivery_rate": 0.9833333333333333,
+      "commonsense_macro_pass_rate": 0.4666666666666667,
+      "hard_macro_pass_rate": 0.45,
+      "final_pass_rate": 0.25
+    },
+    "cell:easy:3": {
+      "total": 20,
+      "delivery_rate": 1.0,
+      "commonsense_macro_pass_rate": 0.55,
+      "hard_macro_pass_rate": 0.6,
+      "final_pass_rate": 0.35
+    },
+    "days:5": {
+      "total": 60,
+      "delivery_rate": 0.95,
+      "commonsense_macro_pass_rate": 0.2,
+      "hard_macro_pass_rate": 0.6666666666666666,
+      "final_pass_rate": 0.13333333333333333
+    },
+    "cell:easy:5": {
+      "total": 20,
+      "delivery_rate": 0.95,
+      "commonsense_macro_pass_rate": 0.2,
+      "hard_macro_pass_rate": 0.85,
+      "final_pass_rate": 0.2
+    },
+    "days:7": {
+      "total": 60,
+      "delivery_rate": 0.9166666666666666,
+      "commonsense_macro_pass_rate": 0.08333333333333333,
+      "hard_macro_pass_rate": 0.5,
+      "final_pass_rate": 0.03333333333333333
+    },
+    "cell:easy:7": {
+      "total": 20,
+      "delivery_rate": 0.85,
+      "commonsense_macro_pass_rate": 0.05,
+      "hard_macro_pass_rate": 0.7,
+      "final_pass_rate": 0.05
+    },
+    "level:medium": {
+      "total": 60,
+      "delivery_rate": 0.9666666666666667,
+      "commonsense_macro_pass_rate": 0.23333333333333334,
+      "hard_macro_pass_rate": 0.55,
+      "final_pass_rate": 0.1
+    },
+    "cell:medium:3": {
+      "total": 20,
+      "delivery_rate": 1.0,
+      "commonsense_macro_pass_rate": 0.45,
+      "hard_macro_pass_rate": 0.5,
+      "final_pass_rate": 0.2
+    },
+    "cell:medium:5": {
+      "total": 20,
+      "delivery_rate": 1.0,
+      "commonsense_macro_pass_rate": 0.2,
+      "hard_macro_pass_rate": 0.6,
+      "final_pass_rate": 0.05
+    },
+    "cell:medium:7": {
+      "total": 20,
+      "delivery_rate": 0.9,
+      "commonsense_macro_pass_rate": 0.05,
+      "hard_macro_pass_rate": 0.55,
+      "final_pass_rate": 0.05
+    },
+    "level:hard": {
+      "total": 60,
+      "delivery_rate": 0.95,
+      "commonsense_macro_pass_rate": 0.25,
+      "hard_macro_pass_rate": 0.35,
+      "final_pass_rate": 0.11666666666666667
+    },
+    "cell:hard:3": {
+      "total": 20,
+      "delivery_rate": 0.95,
+      "commonsense_macro_pass_rate": 0.4,
+      "hard_macro_pass_rate": 0.25,
+      "final_pass_rate": 0.2
+    },
+    "cell:hard:5": {
+      "total": 20,
+      "delivery_rate": 0.9,
+      "commonsense_macro_pass_rate": 0.2,
+      "hard_macro_pass_rate": 0.55,
+      "final_pass_rate": 0.15
+    },
+    "cell:hard:7": {
+      "total": 20,
+      "delivery_rate": 1.0,
+      "commonsense_macro_pass_rate": 0.15,
+      "hard_macro_pass_rate": 0.25,
+      "final_pass_rate": 0.0
+    }
+  },
+  "sensitivity_excluding_validation_1": {
+    "total": 179,
+    "delivery_rate": 0.9497206703910615,
+    "commonsense_micro_pass_rate": 0.7967877094972067,
+    "commonsense_macro_pass_rate": 0.25139664804469275,
+    "hard_micro_pass_rate": 0.6945107398568019,
+    "hard_macro_pass_rate": 0.5363128491620112,
+    "final_pass_rate": 0.13966480446927373
+  },
+  "usage": {
+    "prompt_tokens": 1838964,
+    "completion_tokens": 121981,
+    "total_tokens": 1960945
+  },
+  "latency_seconds": {
+    "total": 838.1868442996929,
+    "mean": 4.682608068713368
+  },
+  "failures": {
+    "is_valid_accommodation": 79,
+    "is_reasonable_visiting_city": 11,
+    "is_valid_restaurants": 64,
+    "is_not_absent": 13,
+    "valid_cost": 41,
+    "is_valid_transportation": 44,
+    "non_delivery": 9,
+    "is_valid_information_in_sandbox": 9,
+    "valid_room_rule": 14,
+    "valid_cuisine": 4,
+    "valid_room_type": 1
+  },
+  "failure_categories": {
+    "minimum_nights": 79,
+    "route_current_city": 11,
+    "restaurant_diversity": 64,
+    "incomplete": 13,
+    "budget": 41,
+    "transportation": 44,
+    "malformed_or_non_delivery": 9,
+    "invalid_entity_sandbox": 9,
+    "room_house_rule": 14,
+    "cuisine": 4,
+    "room_type": 1
+  },
+  "terminal_statuses": {
+    "completed": 171,
+    "invalid_output": 8,
+    "blocked": 1
+  },
+  "total_attempts": 184
+}

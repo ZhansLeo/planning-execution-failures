@@ -1,0 +1,1622 @@
+[
+  {
+    "idx": 1,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "easy",
+    "days": 3
+  },
+  {
+    "idx": 2,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 3
+  },
+  {
+    "idx": 3,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 3
+  },
+  {
+    "idx": 4,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "easy",
+    "days": 3
+  },
+  {
+    "idx": 5,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 3
+  },
+  {
+    "idx": 6,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 3
+  },
+  {
+    "idx": 7,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "easy",
+    "days": 3
+  },
+  {
+    "idx": 8,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "easy",
+    "days": 3
+  },
+  {
+    "idx": 9,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 3
+  },
+  {
+    "idx": 10,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 3
+  },
+  {
+    "idx": 11,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "easy",
+    "days": 3
+  },
+  {
+    "idx": 12,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "easy",
+    "days": 3
+  },
+  {
+    "idx": 13,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "easy",
+    "days": 3
+  },
+  {
+    "idx": 14,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 3
+  },
+  {
+    "idx": 15,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "easy",
+    "days": 3
+  },
+  {
+    "idx": 16,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "easy",
+    "days": 3
+  },
+  {
+    "idx": 17,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "easy",
+    "days": 3
+  },
+  {
+    "idx": 18,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 3
+  },
+  {
+    "idx": 19,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "easy",
+    "days": 3
+  },
+  {
+    "idx": 20,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "easy",
+    "days": 3
+  },
+  {
+    "idx": 21,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "easy",
+    "days": 5
+  },
+  {
+    "idx": 22,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "easy",
+    "days": 5
+  },
+  {
+    "idx": 23,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "easy",
+    "days": 5
+  },
+  {
+    "idx": 24,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "easy",
+    "days": 5
+  },
+  {
+    "idx": 25,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "easy",
+    "days": 5
+  },
+  {
+    "idx": 26,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "easy",
+    "days": 5
+  },
+  {
+    "idx": 27,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 5
+  },
+  {
+    "idx": 28,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "easy",
+    "days": 5
+  },
+  {
+    "idx": 29,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "easy",
+    "days": 5
+  },
+  {
+    "idx": 30,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 5
+  },
+  {
+    "idx": 31,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "easy",
+    "days": 5
+  },
+  {
+    "idx": 32,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "easy",
+    "days": 5
+  },
+  {
+    "idx": 33,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "easy",
+    "days": 5
+  },
+  {
+    "idx": 34,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "easy",
+    "days": 5
+  },
+  {
+    "idx": 35,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "easy",
+    "days": 5
+  },
+  {
+    "idx": 36,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "easy",
+    "days": 5
+  },
+  {
+    "idx": 37,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "easy",
+    "days": 5
+  },
+  {
+    "idx": 38,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "easy",
+    "days": 5
+  },
+  {
+    "idx": 39,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 5
+  },
+  {
+    "idx": 40,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "easy",
+    "days": 5
+  },
+  {
+    "idx": 41,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 7
+  },
+  {
+    "idx": 42,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 7
+  },
+  {
+    "idx": 43,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 7
+  },
+  {
+    "idx": 44,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "easy",
+    "days": 7
+  },
+  {
+    "idx": 45,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 7
+  },
+  {
+    "idx": 46,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "easy",
+    "days": 7
+  },
+  {
+    "idx": 47,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "easy",
+    "days": 7
+  },
+  {
+    "idx": 48,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "easy",
+    "days": 7
+  },
+  {
+    "idx": 49,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "easy",
+    "days": 7
+  },
+  {
+    "idx": 50,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "easy",
+    "days": 7
+  },
+  {
+    "idx": 51,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "easy",
+    "days": 7
+  },
+  {
+    "idx": 52,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 7
+  },
+  {
+    "idx": 53,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "easy",
+    "days": 7
+  },
+  {
+    "idx": 54,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "easy",
+    "days": 7
+  },
+  {
+    "idx": 55,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "easy",
+    "days": 7
+  },
+  {
+    "idx": 56,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "easy",
+    "days": 7
+  },
+  {
+    "idx": 57,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "easy",
+    "days": 7
+  },
+  {
+    "idx": 58,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "easy",
+    "days": 7
+  },
+  {
+    "idx": 59,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "easy",
+    "days": 7
+  },
+  {
+    "idx": 60,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "easy",
+    "days": 7
+  },
+  {
+    "idx": 61,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "medium",
+    "days": 3
+  },
+  {
+    "idx": 62,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 3
+  },
+  {
+    "idx": 63,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 3
+  },
+  {
+    "idx": 64,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "medium",
+    "days": 3
+  },
+  {
+    "idx": 65,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "medium",
+    "days": 3
+  },
+  {
+    "idx": 66,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 3
+  },
+  {
+    "idx": 67,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 3
+  },
+  {
+    "idx": 68,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "medium",
+    "days": 3
+  },
+  {
+    "idx": 69,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "medium",
+    "days": 3
+  },
+  {
+    "idx": 70,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "medium",
+    "days": 3
+  },
+  {
+    "idx": 71,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "medium",
+    "days": 3
+  },
+  {
+    "idx": 72,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 3
+  },
+  {
+    "idx": 73,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 3
+  },
+  {
+    "idx": 74,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "medium",
+    "days": 3
+  },
+  {
+    "idx": 75,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 3
+  },
+  {
+    "idx": 76,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "medium",
+    "days": 3
+  },
+  {
+    "idx": 77,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 3
+  },
+  {
+    "idx": 78,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 3
+  },
+  {
+    "idx": 79,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "medium",
+    "days": 3
+  },
+  {
+    "idx": 80,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 3
+  },
+  {
+    "idx": 81,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "medium",
+    "days": 5
+  },
+  {
+    "idx": 82,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "medium",
+    "days": 5
+  },
+  {
+    "idx": 83,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "medium",
+    "days": 5
+  },
+  {
+    "idx": 84,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 5
+  },
+  {
+    "idx": 85,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "medium",
+    "days": 5
+  },
+  {
+    "idx": 86,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 5
+  },
+  {
+    "idx": 87,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "medium",
+    "days": 5
+  },
+  {
+    "idx": 88,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 5
+  },
+  {
+    "idx": 89,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "medium",
+    "days": 5
+  },
+  {
+    "idx": 90,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 5
+  },
+  {
+    "idx": 91,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "medium",
+    "days": 5
+  },
+  {
+    "idx": 92,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 5
+  },
+  {
+    "idx": 93,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "medium",
+    "days": 5
+  },
+  {
+    "idx": 94,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "medium",
+    "days": 5
+  },
+  {
+    "idx": 95,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 5
+  },
+  {
+    "idx": 96,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 5
+  },
+  {
+    "idx": 97,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "medium",
+    "days": 5
+  },
+  {
+    "idx": 98,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "medium",
+    "days": 5
+  },
+  {
+    "idx": 99,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "medium",
+    "days": 5
+  },
+  {
+    "idx": 100,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 5
+  },
+  {
+    "idx": 101,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "medium",
+    "days": 7
+  },
+  {
+    "idx": 102,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 7
+  },
+  {
+    "idx": 103,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 7
+  },
+  {
+    "idx": 104,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "medium",
+    "days": 7
+  },
+  {
+    "idx": 105,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "medium",
+    "days": 7
+  },
+  {
+    "idx": 106,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "medium",
+    "days": 7
+  },
+  {
+    "idx": 107,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "medium",
+    "days": 7
+  },
+  {
+    "idx": 108,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "medium",
+    "days": 7
+  },
+  {
+    "idx": 109,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "medium",
+    "days": 7
+  },
+  {
+    "idx": 110,
+    "status": "blocked",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 7
+  },
+  {
+    "idx": 111,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "medium",
+    "days": 7
+  },
+  {
+    "idx": 112,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 7
+  },
+  {
+    "idx": 113,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 7
+  },
+  {
+    "idx": 114,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 7
+  },
+  {
+    "idx": 115,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "medium",
+    "days": 7
+  },
+  {
+    "idx": 116,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 7
+  },
+  {
+    "idx": 117,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "medium",
+    "days": 7
+  },
+  {
+    "idx": 118,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 7
+  },
+  {
+    "idx": 119,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "medium",
+    "days": 7
+  },
+  {
+    "idx": 120,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "medium",
+    "days": 7
+  },
+  {
+    "idx": 121,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 3
+  },
+  {
+    "idx": 122,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 3
+  },
+  {
+    "idx": 123,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 3
+  },
+  {
+    "idx": 124,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "hard",
+    "days": 3
+  },
+  {
+    "idx": 125,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 3
+  },
+  {
+    "idx": 126,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 3
+  },
+  {
+    "idx": 127,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "hard",
+    "days": 3
+  },
+  {
+    "idx": 128,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 3
+  },
+  {
+    "idx": 129,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 3
+  },
+  {
+    "idx": 130,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 3
+  },
+  {
+    "idx": 131,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 3
+  },
+  {
+    "idx": 132,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 3
+  },
+  {
+    "idx": 133,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 3
+  },
+  {
+    "idx": 134,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "hard",
+    "days": 3
+  },
+  {
+    "idx": 135,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "hard",
+    "days": 3
+  },
+  {
+    "idx": 136,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 3
+  },
+  {
+    "idx": 137,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 3
+  },
+  {
+    "idx": 138,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 3
+  },
+  {
+    "idx": 139,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "hard",
+    "days": 3
+  },
+  {
+    "idx": 140,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 3
+  },
+  {
+    "idx": 141,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 5
+  },
+  {
+    "idx": 142,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 5
+  },
+  {
+    "idx": 143,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "hard",
+    "days": 5
+  },
+  {
+    "idx": 144,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "hard",
+    "days": 5
+  },
+  {
+    "idx": 145,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "hard",
+    "days": 5
+  },
+  {
+    "idx": 146,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "hard",
+    "days": 5
+  },
+  {
+    "idx": 147,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 5
+  },
+  {
+    "idx": 148,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 5
+  },
+  {
+    "idx": 149,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 5
+  },
+  {
+    "idx": 150,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 5
+  },
+  {
+    "idx": 151,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "hard",
+    "days": 5
+  },
+  {
+    "idx": 152,
+    "status": "invalid_output",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 5
+  },
+  {
+    "idx": 153,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "hard",
+    "days": 5
+  },
+  {
+    "idx": 154,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "hard",
+    "days": 5
+  },
+  {
+    "idx": 155,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "hard",
+    "days": 5
+  },
+  {
+    "idx": 156,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 5
+  },
+  {
+    "idx": 157,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": true,
+    "final_pass": true,
+    "level": "hard",
+    "days": 5
+  },
+  {
+    "idx": 158,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 5
+  },
+  {
+    "idx": 159,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "hard",
+    "days": 5
+  },
+  {
+    "idx": 160,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "hard",
+    "days": 5
+  },
+  {
+    "idx": 161,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 7
+  },
+  {
+    "idx": 162,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "hard",
+    "days": 7
+  },
+  {
+    "idx": 163,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 7
+  },
+  {
+    "idx": 164,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 7
+  },
+  {
+    "idx": 165,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 7
+  },
+  {
+    "idx": 166,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 7
+  },
+  {
+    "idx": 167,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 7
+  },
+  {
+    "idx": 168,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "hard",
+    "days": 7
+  },
+  {
+    "idx": 169,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "hard",
+    "days": 7
+  },
+  {
+    "idx": 170,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 7
+  },
+  {
+    "idx": 171,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 7
+  },
+  {
+    "idx": 172,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 7
+  },
+  {
+    "idx": 173,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 7
+  },
+  {
+    "idx": 174,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 7
+  },
+  {
+    "idx": 175,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 7
+  },
+  {
+    "idx": 176,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "hard",
+    "days": 7
+  },
+  {
+    "idx": 177,
+    "status": "completed",
+    "commonsense_pass": true,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 7
+  },
+  {
+    "idx": 178,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 7
+  },
+  {
+    "idx": 179,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": true,
+    "final_pass": false,
+    "level": "hard",
+    "days": 7
+  },
+  {
+    "idx": 180,
+    "status": "completed",
+    "commonsense_pass": false,
+    "hard_pass": false,
+    "final_pass": false,
+    "level": "hard",
+    "days": 7
+  }
+]

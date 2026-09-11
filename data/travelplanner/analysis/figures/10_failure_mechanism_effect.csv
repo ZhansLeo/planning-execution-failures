@@ -1,0 +1,5 @@
+﻿failure,mechanism,effect
+Oracle evidence 已给定,Direct planning,高 Delivery，Final Pass 仍低
+自主检索与 Agent 控制失败,Official tools + ReAct,Delivery −60pp，成本显著上升
+全局路线与检索失焦,Explicit Planner,Delivery +5pp，Token 略降
+候选错误与格式问题,Verifier + Single Replan,Delivery +1.67pp，Final Pass 不变

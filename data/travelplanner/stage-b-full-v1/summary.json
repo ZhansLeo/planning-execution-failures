@@ -1,0 +1,286 @@
+{
+  "experiment_id": "stage-b-full-v1",
+  "baseline": "react",
+  "mode": "batch",
+  "total": 180,
+  "delivered": 63,
+  "delivery_rate": 0.35,
+  "commonsense_macro_pass_rate": 0.20555555555555555,
+  "hard_macro_pass_rate": 0.22777777777777777,
+  "final_pass_rate": 0.15555555555555556,
+  "commonsense_micro_pass_rate": 0.3215277777777778,
+  "hard_micro_pass_rate": 0.24761904761904763,
+  "constraint_pass": {
+    "is_reasonable_visiting_city": {
+      "pass": 55,
+      "total": 63,
+      "rate": 0.873015873015873
+    },
+    "is_valid_restaurants": {
+      "pass": 47,
+      "total": 63,
+      "rate": 0.746031746031746
+    },
+    "is_valid_attractions": {
+      "pass": 63,
+      "total": 63,
+      "rate": 1.0
+    },
+    "is_valid_accommodation": {
+      "pass": 62,
+      "total": 63,
+      "rate": 0.9841269841269841
+    },
+    "is_valid_transportation": {
+      "pass": 62,
+      "total": 63,
+      "rate": 0.9841269841269841
+    },
+    "is_valid_information_in_current_city": {
+      "pass": 60,
+      "total": 63,
+      "rate": 0.9523809523809523
+    },
+    "is_valid_information_in_sandbox": {
+      "pass": 58,
+      "total": 63,
+      "rate": 0.9206349206349206
+    },
+    "is_not_absent": {
+      "pass": 56,
+      "total": 63,
+      "rate": 0.8888888888888888
+    },
+    "valid_cost": {
+      "pass": 42,
+      "total": 51,
+      "rate": 0.8235294117647058
+    },
+    "valid_room_type": {
+      "pass": 16,
+      "total": 17,
+      "rate": 0.9411764705882353
+    },
+    "valid_cuisine": {
+      "pass": 11,
+      "total": 11,
+      "rate": 1.0
+    },
+    "valid_room_rule": {
+      "pass": 19,
+      "total": 19,
+      "rate": 1.0
+    },
+    "valid_transportation": {
+      "pass": 16,
+      "total": 16,
+      "rate": 1.0
+    }
+  },
+  "groups": {
+    "all": {
+      "total": 180,
+      "delivery_rate": 0.35,
+      "commonsense_macro_pass_rate": 0.20555555555555555,
+      "hard_macro_pass_rate": 0.22777777777777777,
+      "final_pass_rate": 0.15555555555555556
+    },
+    "level:easy": {
+      "total": 60,
+      "delivery_rate": 0.4166666666666667,
+      "commonsense_macro_pass_rate": 0.3,
+      "hard_macro_pass_rate": 0.3333333333333333,
+      "final_pass_rate": 0.26666666666666666
+    },
+    "days:3": {
+      "total": 60,
+      "delivery_rate": 0.6833333333333333,
+      "commonsense_macro_pass_rate": 0.4666666666666667,
+      "hard_macro_pass_rate": 0.4666666666666667,
+      "final_pass_rate": 0.3333333333333333
+    },
+    "cell:easy:3": {
+      "total": 20,
+      "delivery_rate": 0.8,
+      "commonsense_macro_pass_rate": 0.65,
+      "hard_macro_pass_rate": 0.65,
+      "final_pass_rate": 0.55
+    },
+    "days:5": {
+      "total": 60,
+      "delivery_rate": 0.25,
+      "commonsense_macro_pass_rate": 0.11666666666666667,
+      "hard_macro_pass_rate": 0.15,
+      "final_pass_rate": 0.1
+    },
+    "cell:easy:5": {
+      "total": 20,
+      "delivery_rate": 0.4,
+      "commonsense_macro_pass_rate": 0.2,
+      "hard_macro_pass_rate": 0.3,
+      "final_pass_rate": 0.2
+    },
+    "days:7": {
+      "total": 60,
+      "delivery_rate": 0.11666666666666667,
+      "commonsense_macro_pass_rate": 0.03333333333333333,
+      "hard_macro_pass_rate": 0.06666666666666667,
+      "final_pass_rate": 0.03333333333333333
+    },
+    "cell:easy:7": {
+      "total": 20,
+      "delivery_rate": 0.05,
+      "commonsense_macro_pass_rate": 0.05,
+      "hard_macro_pass_rate": 0.05,
+      "final_pass_rate": 0.05
+    },
+    "level:medium": {
+      "total": 60,
+      "delivery_rate": 0.3,
+      "commonsense_macro_pass_rate": 0.15,
+      "hard_macro_pass_rate": 0.16666666666666666,
+      "final_pass_rate": 0.11666666666666667
+    },
+    "cell:medium:3": {
+      "total": 20,
+      "delivery_rate": 0.65,
+      "commonsense_macro_pass_rate": 0.35,
+      "hard_macro_pass_rate": 0.4,
+      "final_pass_rate": 0.25
+    },
+    "cell:medium:5": {
+      "total": 20,
+      "delivery_rate": 0.2,
+      "commonsense_macro_pass_rate": 0.1,
+      "hard_macro_pass_rate": 0.1,
+      "final_pass_rate": 0.1
+    },
+    "cell:medium:7": {
+      "total": 20,
+      "delivery_rate": 0.05,
+      "commonsense_macro_pass_rate": 0.0,
+      "hard_macro_pass_rate": 0.0,
+      "final_pass_rate": 0.0
+    },
+    "level:hard": {
+      "total": 60,
+      "delivery_rate": 0.3333333333333333,
+      "commonsense_macro_pass_rate": 0.16666666666666666,
+      "hard_macro_pass_rate": 0.18333333333333332,
+      "final_pass_rate": 0.08333333333333333
+    },
+    "cell:hard:3": {
+      "total": 20,
+      "delivery_rate": 0.6,
+      "commonsense_macro_pass_rate": 0.4,
+      "hard_macro_pass_rate": 0.35,
+      "final_pass_rate": 0.2
+    },
+    "cell:hard:5": {
+      "total": 20,
+      "delivery_rate": 0.15,
+      "commonsense_macro_pass_rate": 0.05,
+      "hard_macro_pass_rate": 0.05,
+      "final_pass_rate": 0.0
+    },
+    "cell:hard:7": {
+      "total": 20,
+      "delivery_rate": 0.25,
+      "commonsense_macro_pass_rate": 0.05,
+      "hard_macro_pass_rate": 0.15,
+      "final_pass_rate": 0.05
+    }
+  },
+  "sensitivity_excluding_validation_1": {
+    "total": 179,
+    "delivery_rate": 0.3463687150837989,
+    "commonsense_micro_pass_rate": 0.31773743016759776,
+    "commonsense_macro_pass_rate": 0.2011173184357542,
+    "hard_micro_pass_rate": 0.2458233890214797,
+    "hard_macro_pass_rate": 0.22346368715083798,
+    "final_pass_rate": 0.15083798882681565
+  },
+  "usage": {
+    "prompt_tokens": 9338555,
+    "completion_tokens": 1037084,
+    "total_tokens": 10375639
+  },
+  "latency_seconds": {
+    "total": 6954.949377599725,
+    "mean": 38.63860765333181
+  },
+  "failures": {
+    "is_reasonable_visiting_city": 8,
+    "non_delivery": 117,
+    "is_valid_restaurants": 16,
+    "is_not_absent": 7,
+    "valid_cost": 9,
+    "is_valid_transportation": 1,
+    "is_valid_information_in_sandbox": 5,
+    "is_valid_accommodation": 1,
+    "valid_room_type": 1,
+    "is_valid_information_in_current_city": 3
+  },
+  "failure_categories": {
+    "route_current_city": 11,
+    "malformed_or_non_delivery": 117,
+    "restaurant_diversity": 16,
+    "incomplete": 7,
+    "budget": 9,
+    "transportation": 1,
+    "invalid_entity_sandbox": 5,
+    "minimum_nights": 1,
+    "room_type": 1
+  },
+  "terminal_statuses": {
+    "completed": 63,
+    "invalid_output": 117
+  },
+  "total_attempts": 180,
+  "react": {
+    "tool_calls": {
+      "mean": 19.427777777777777,
+      "p50": 23,
+      "p90": 30,
+      "max": 30
+    },
+    "model_calls": {
+      "mean": 6.311111111111111,
+      "p50": 6,
+      "p90": 10,
+      "max": 16
+    },
+    "tool_frequency": {
+      "city_search": 236,
+      "flight_search": 1772,
+      "accommodation_search": 464,
+      "attraction_search": 345,
+      "restaurant_search": 352,
+      "distance_matrix": 329
+    },
+    "tool_errors": {
+      "city_search": 1
+    },
+    "empty_results": 875,
+    "observation_bytes": 6207404,
+    "terminal_reasons": {
+      "final_response": 118,
+      "max_steps": 61,
+      "repeated_tool_call": 1
+    },
+    "acquisition_funnel": {
+      "success": 28,
+      "planning_constraint_failure": 13,
+      "non_delivery_or_agent_control": 117,
+      "tool_execution_failure": 1,
+      "evidence_insufficient_for_chosen_plan": 16,
+      "evidence_utilization_or_grounding_failure": 5
+    },
+    "mean_rates": {
+      "chosen_route_coverage": 0.7896140896140893,
+      "plan_evidence_grounding": 0.9918052812437839,
+      "oracle_alignment": 0.3691181657848327
+    },
+    "conditional_planning_success": 0.6829268292682927
+  }
+}

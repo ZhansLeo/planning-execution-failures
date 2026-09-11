@@ -1,0 +1,83 @@
+{
+  "experiment_id": "ct-pilot-v1",
+  "baseline": "CT-C_structured_planner_react",
+  "protocol_version": "ct-c-structured-planner-v1.0-pilot",
+  "status": "FROZEN",
+  "base_ct_b_manifest_sha256": "8513bcfa6ff92157f0adea76170053b75c8b5bc3e6f21ed673c1cc9aaeaa13d8",
+  "samples": [
+    {
+      "split": "easy",
+      "uid": "m20241028164642633824"
+    },
+    {
+      "split": "easy",
+      "uid": "m20241028164924049935"
+    },
+    {
+      "split": "easy",
+      "uid": "m20241028164800617250"
+    },
+    {
+      "split": "easy",
+      "uid": "m20241028164815894420"
+    },
+    {
+      "split": "medium",
+      "uid": "e20241028161334777418"
+    },
+    {
+      "split": "medium",
+      "uid": "e20241028161119161993"
+    },
+    {
+      "split": "medium",
+      "uid": "e20241028161327496043"
+    },
+    {
+      "split": "medium",
+      "uid": "e20241028161015707983"
+    },
+    {
+      "split": "human",
+      "uid": "h20241029143451793119"
+    },
+    {
+      "split": "human",
+      "uid": "h20241029143648613072"
+    },
+    {
+      "split": "human",
+      "uid": "h20241029143736524841"
+    },
+    {
+      "split": "human",
+      "uid": "h20241029143832205713"
+    }
+  ],
+  "sample_count": 12,
+  "planner_prompt_version": "ct-c-planner-zh-v1.0",
+  "planner_prompt_template_hash": "fb2db4a4a5209b0b7338743ab67cdfeb2e10ee7286032ce9db34b65758cca760",
+  "planner_schema_hash": "e586669599c3b5783aa9b9f75e21c1d75cd79e7739b8b52d2888d30d617ddaf8",
+  "planner_max_tokens": 1500,
+  "requested_model": "deepseek-chat",
+  "required_resolved_model": "deepseek-v4-flash",
+  "executor_invariant": {
+    "tool_schema_hash": "dd525ecd0f84ab7bff8684accdb3ce178e74f1541b48bd70c3f3cb59f92b5823",
+    "output_schema_sha256": "6bd2ab0da6930e9d3593034e24b53ab7c6d345063ad4e81f4114e1afb4d5c439",
+    "max_tool_calls": 30,
+    "max_model_rounds": 31,
+    "context_limit": 56000,
+    "parallel_policy": "sequential_in_model_order",
+    "finalization": "one_same-model_no-tools-json-turn",
+    "thinking": "disabled",
+    "response_format": "json_object",
+    "parser": "strict-json-no-repair"
+  },
+  "executor_invariant_hash": "7cc9e8496d1b919566162fa0b5abb97e581d0e450cad02f26edfb3f1fe21bfed",
+  "official_commit": "0936f2727dd102ad811ed015b7bf6f7d6533f28e",
+  "oracle_fields_hidden": [
+    "hard_logic",
+    "hard_logic_nl",
+    "hard_logic_py"
+  ]
+}

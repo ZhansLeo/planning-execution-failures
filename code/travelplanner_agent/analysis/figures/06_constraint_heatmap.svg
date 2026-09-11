@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#FAFAF7"/>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#252525}.title{font-size:36px;font-weight:700}.sub{font-size:19px;fill:#666}.lab{font-size:18px}.small{font-size:15px}.val{font-size:17px;font-weight:700}</style>
+<text x="80" y="70" class="title">逐约束通过率热图</text>
+<text x="80" y="105" class="sub">灰色表示该阶段该约束无适用样本</text>
+<text x="680.0" y="135" text-anchor="middle" class="lab">Stage A</text>
+<text x="860.0" y="135" text-anchor="middle" class="lab">Stage B</text>
+<text x="1040.0" y="135" text-anchor="middle" class="lab">Stage C</text>
+<text x="1220.0" y="135" text-anchor="middle" class="lab">Stage D</text>
+<text x="575" y="188" text-anchor="end" class="small">is_not_absent</text>
+<rect x="590" y="160" width="175" height="39" fill="rgb(119,194,119)"/>
+<text x="676.4" y="187" text-anchor="middle" class="small">92.4%</text>
+<rect x="770" y="160" width="175" height="39" fill="rgb(124,196,124)"/>
+<text x="856.4" y="187" text-anchor="middle" class="small">88.9%</text>
+<rect x="950" y="160" width="175" height="39" fill="rgb(120,194,120)"/>
+<text x="1036.4" y="187" text-anchor="middle" class="small">91.7%</text>
+<rect x="1130" y="160" width="175" height="39" fill="rgb(118,193,118)"/>
+<text x="1216.4" y="187" text-anchor="middle" class="small">93.3%</text>
+<text x="575" y="231" text-anchor="end" class="small">is_reasonable_visiting_city</text>
+<rect x="590" y="203" width="175" height="39" fill="rgb(118,193,118)"/>
+<text x="676.4" y="230" text-anchor="middle" class="small">93.6%</text>
+<rect x="770" y="203" width="175" height="39" fill="rgb(126,196,126)"/>
+<text x="856.4" y="230" text-anchor="middle" class="small">87.3%</text>
+<rect x="950" y="203" width="175" height="39" fill="rgb(117,193,117)"/>
+<text x="1036.4" y="230" text-anchor="middle" class="small">94.4%</text>
+<rect x="1130" y="203" width="175" height="39" fill="rgb(120,194,120)"/>
+<text x="1216.4" y="230" text-anchor="middle" class="small">92.0%</text>
+<text x="575" y="274" text-anchor="end" class="small">is_valid_accommodation</text>
+<rect x="590" y="246" width="175" height="39" fill="rgb(170,215,170)"/>
+<text x="676.4" y="273" text-anchor="middle" class="small">53.8%</text>
+<rect x="770" y="246" width="175" height="39" fill="rgb(112,190,112)"/>
+<text x="856.4" y="273" text-anchor="middle" class="small">98.4%</text>
+<rect x="950" y="246" width="175" height="39" fill="rgb(111,190,111)"/>
+<text x="1036.4" y="273" text-anchor="middle" class="small">98.6%</text>
+<rect x="1130" y="246" width="175" height="39" fill="rgb(120,194,120)"/>
+<text x="1216.4" y="273" text-anchor="middle" class="small">92.0%</text>
+<text x="575" y="317" text-anchor="end" class="small">is_valid_attractions</text>
+<rect x="590" y="289" width="175" height="39" fill="rgb(110,190,110)"/>
+<text x="676.4" y="316" text-anchor="middle" class="small">100.0%</text>
+<rect x="770" y="289" width="175" height="39" fill="rgb(110,190,110)"/>
+<text x="856.4" y="316" text-anchor="middle" class="small">100.0%</text>
+<rect x="950" y="289" width="175" height="39" fill="rgb(110,190,110)"/>
+<text x="1036.4" y="316" text-anchor="middle" class="small">100.0%</text>
+<rect x="1130" y="289" width="175" height="39" fill="rgb(110,190,110)"/>
+<text x="1216.4" y="316" text-anchor="middle" class="small">100.0%</text>
+<text x="575" y="360" text-anchor="end" class="small">is_valid_information_in_current_city</text>
+<rect x="590" y="332" width="175" height="39" fill="rgb(110,190,110)"/>
+<text x="676.4" y="359" text-anchor="middle" class="small">100.0%</text>
+<rect x="770" y="332" width="175" height="39" fill="rgb(116,192,116)"/>
+<text x="856.4" y="359" text-anchor="middle" class="small">95.2%</text>
+<rect x="950" y="332" width="175" height="39" fill="rgb(119,193,119)"/>
+<text x="1036.4" y="359" text-anchor="middle" class="small">93.1%</text>
+<rect x="1130" y="332" width="175" height="39" fill="rgb(122,195,122)"/>
+<text x="1216.4" y="359" text-anchor="middle" class="small">90.7%</text>
+<text x="575" y="403" text-anchor="end" class="small">is_valid_information_in_sandbox</text>
+<rect x="590" y="375" width="175" height="39" fill="rgb(116,192,116)"/>
+<text x="676.4" y="402" text-anchor="middle" class="small">94.7%</text>
+<rect x="770" y="375" width="175" height="39" fill="rgb(120,194,120)"/>
+<text x="856.4" y="402" text-anchor="middle" class="small">92.1%</text>
+<rect x="950" y="375" width="175" height="39" fill="rgb(115,192,115)"/>
+<text x="1036.4" y="402" text-anchor="middle" class="small">95.8%</text>
+<rect x="1130" y="375" width="175" height="39" fill="rgb(118,193,118)"/>
+<text x="1216.4" y="402" text-anchor="middle" class="small">93.3%</text>
+<text x="575" y="446" text-anchor="end" class="small">is_valid_restaurants</text>
+<rect x="590" y="418" width="175" height="39" fill="rgb(158,210,158)"/>
+<text x="676.4" y="445" text-anchor="middle" class="small">62.6%</text>
+<rect x="770" y="418" width="175" height="39" fill="rgb(143,203,143)"/>
+<text x="856.4" y="445" text-anchor="middle" class="small">74.6%</text>
+<rect x="950" y="418" width="175" height="39" fill="rgb(149,206,149)"/>
+<text x="1036.4" y="445" text-anchor="middle" class="small">69.4%</text>
+<rect x="1130" y="418" width="175" height="39" fill="rgb(149,206,149)"/>
+<text x="1216.4" y="445" text-anchor="middle" class="small">69.3%</text>
+<text x="575" y="489" text-anchor="end" class="small">is_valid_transportation</text>
+<rect x="590" y="461" width="175" height="39" fill="rgb(143,204,143)"/>
+<text x="676.4" y="488" text-anchor="middle" class="small">74.3%</text>
+<rect x="770" y="461" width="175" height="39" fill="rgb(112,190,112)"/>
+<text x="856.4" y="488" text-anchor="middle" class="small">98.4%</text>
+<rect x="950" y="461" width="175" height="39" fill="rgb(117,193,117)"/>
+<text x="1036.4" y="488" text-anchor="middle" class="small">94.4%</text>
+<rect x="1130" y="461" width="175" height="39" fill="rgb(113,191,113)"/>
+<text x="1216.4" y="488" text-anchor="middle" class="small">97.3%</text>
+<text x="575" y="532" text-anchor="end" class="small">valid_cost</text>
+<rect x="590" y="504" width="175" height="39" fill="rgb(145,205,145)"/>
+<text x="676.4" y="531" text-anchor="middle" class="small">72.5%</text>
+<rect x="770" y="504" width="175" height="39" fill="rgb(132,199,132)"/>
+<text x="856.4" y="531" text-anchor="middle" class="small">82.4%</text>
+<rect x="950" y="504" width="175" height="39" fill="rgb(145,204,145)"/>
+<text x="1036.4" y="531" text-anchor="middle" class="small">73.0%</text>
+<rect x="1130" y="504" width="175" height="39" fill="rgb(149,206,149)"/>
+<text x="1216.4" y="531" text-anchor="middle" class="small">69.7%</text>
+<text x="575" y="575" text-anchor="end" class="small">valid_cuisine</text>
+<rect x="590" y="547" width="175" height="39" fill="rgb(124,195,124)"/>
+<text x="676.4" y="574" text-anchor="middle" class="small">89.2%</text>
+<rect x="770" y="547" width="175" height="39" fill="rgb(110,190,110)"/>
+<text x="856.4" y="574" text-anchor="middle" class="small">100.0%</text>
+<rect x="950" y="547" width="175" height="39" fill="rgb(110,190,110)"/>
+<text x="1036.4" y="574" text-anchor="middle" class="small">100.0%</text>
+<rect x="1130" y="547" width="175" height="39" fill="rgb(110,190,110)"/>
+<text x="1216.4" y="574" text-anchor="middle" class="small">100.0%</text>
+<text x="575" y="618" text-anchor="end" class="small">valid_room_rule</text>
+<rect x="590" y="590" width="175" height="39" fill="rgb(138,202,138)"/>
+<text x="676.4" y="617" text-anchor="middle" class="small">78.1%</text>
+<rect x="770" y="590" width="175" height="39" fill="rgb(110,190,110)"/>
+<text x="856.4" y="617" text-anchor="middle" class="small">100.0%</text>
+<rect x="950" y="590" width="175" height="39" fill="rgb(115,192,115)"/>
+<text x="1036.4" y="617" text-anchor="middle" class="small">96.2%</text>
+<rect x="1130" y="590" width="175" height="39" fill="rgb(115,192,115)"/>
+<text x="1216.4" y="617" text-anchor="middle" class="small">96.2%</text>
+<text x="575" y="661" text-anchor="end" class="small">valid_room_type</text>
+<rect x="590" y="633" width="175" height="39" fill="rgb(112,190,112)"/>
+<text x="676.4" y="660" text-anchor="middle" class="small">98.2%</text>
+<rect x="770" y="633" width="175" height="39" fill="rgb(117,193,117)"/>
+<text x="856.4" y="660" text-anchor="middle" class="small">94.1%</text>
+<rect x="950" y="633" width="175" height="39" fill="rgb(124,196,124)"/>
+<text x="1036.4" y="660" text-anchor="middle" class="small">88.9%</text>
+<rect x="1130" y="633" width="175" height="39" fill="rgb(115,192,115)"/>
+<text x="1216.4" y="660" text-anchor="middle" class="small">96.2%</text>
+<text x="575" y="704" text-anchor="end" class="small">valid_transportation</text>
+<rect x="590" y="676" width="175" height="39" fill="rgb(110,190,110)"/>
+<text x="676.4" y="703" text-anchor="middle" class="small">100.0%</text>
+<rect x="770" y="676" width="175" height="39" fill="rgb(110,190,110)"/>
+<text x="856.4" y="703" text-anchor="middle" class="small">100.0%</text>
+<rect x="950" y="676" width="175" height="39" fill="rgb(110,190,110)"/>
+<text x="1036.4" y="703" text-anchor="middle" class="small">100.0%</text>
+<rect x="1130" y="676" width="175" height="39" fill="rgb(110,190,110)"/>
+<text x="1216.4" y="703" text-anchor="middle" class="small">100.0%</text>
+</svg>

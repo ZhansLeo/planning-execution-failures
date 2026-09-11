@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#FAFAF7"/>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#252525}.title{font-size:36px;font-weight:700}.sub{font-size:19px;fill:#666}.lab{font-size:18px}.small{font-size:15px}.val{font-size:17px;font-weight:700}</style>
+<text x="80" y="70" class="title">相邻阶段 Final Pass 配对转移</text>
+<text x="80" y="105" class="sub">A/B 是系统差距；B/C 与 C/D 才是同信息条件下的机制比较</text>
+<text x="330" y="170" text-anchor="middle" class="title">A_to_B_system_gap</text>
+<rect x="170" y="250" width="235" height="70" fill="#228833" rx="5"/>
+<text x="418" y="295" class="lab">fail→pass: 22</text>
+<rect x="170" y="400" width="205" height="70" fill="#EE6677" rx="5"/>
+<text x="388" y="445" class="lab">pass→fail: 19</text>
+<rect x="170" y="550" width="75" height="70" fill="#4477AA" rx="5"/>
+<text x="258" y="595" class="lab">both pass: 6</text>
+<text x="170" y="760" class="small">Δ=+1.67pp, p=0.755</text>
+<text x="830" y="170" text-anchor="middle" class="title">B_to_C_planner</text>
+<rect x="670" y="250" width="205" height="70" fill="#228833" rx="5"/>
+<text x="888" y="295" class="lab">fail→pass: 19</text>
+<rect x="670" y="400" width="195" height="70" fill="#EE6677" rx="5"/>
+<text x="878" y="445" class="lab">pass→fail: 18</text>
+<rect x="670" y="550" width="115" height="70" fill="#4477AA" rx="5"/>
+<text x="798" y="595" class="lab">both pass: 10</text>
+<text x="670" y="760" class="small">Δ=+0.56pp, p=1.000</text>
+<text x="1330" y="170" text-anchor="middle" class="title">C_to_D_verifier_replan</text>
+<rect x="1170" y="250" width="185" height="70" fill="#228833" rx="5"/>
+<text x="1368" y="295" class="lab">fail→pass: 17</text>
+<rect x="1170" y="400" width="185" height="70" fill="#EE6677" rx="5"/>
+<text x="1368" y="445" class="lab">pass→fail: 17</text>
+<rect x="1170" y="550" width="135" height="70" fill="#4477AA" rx="5"/>
+<text x="1318" y="595" class="lab">both pass: 12</text>
+<text x="1170" y="760" class="small">Δ=+0.00pp, p=1.000</text>
+</svg>

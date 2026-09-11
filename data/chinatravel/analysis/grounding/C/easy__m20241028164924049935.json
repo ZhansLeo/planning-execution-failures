@@ -1,0 +1,617 @@
+{
+  "baseline": "C",
+  "sample_key": "easy:m20241028164924049935",
+  "run_id": "ct-c-20260908T145112Z-m20241028164924049935",
+  "split": "easy",
+  "uid": "m20241028164924049935",
+  "termination": "finalized_response",
+  "model_calls": 12,
+  "tool_calls": 30,
+  "total_tokens": 208574,
+  "latency_seconds": 60.95575399999507,
+  "final_response": true,
+  "schema_delivery": false,
+  "environment_pass": false,
+  "logical_pass": false,
+  "all_pass": false,
+  "schema_errors": [
+    "'start' is a required property",
+    "'end' is a required property",
+    "'start' is a required property",
+    "'end' is a required property"
+  ],
+  "planner_flags": [
+    "blueprint_execution_deviation"
+  ],
+  "observed_row_count": 128,
+  "activity_count": 15,
+  "activity_status_counts": {
+    "retrieved_but_used_inconsistently": 5,
+    "retrieved_and_used_consistently": 10
+  },
+  "activity_grounding_micro": 1.0,
+  "activity_consistency_micro": 0.6666666666666666,
+  "transport_count": 25,
+  "transport_status_counts": {
+    "retrieved_and_used_consistently": 11,
+    "retrieved_but_used_inconsistently": 13,
+    "not_retrieved_or_fabricated": 1
+  },
+  "transport_grounding_micro": 0.96,
+  "fully_grounded_plan": false,
+  "any_observation_delivery": false,
+  "primary_failure": "output_contract_failure",
+  "activities": [
+    {
+      "day": 1,
+      "activity_index": 0,
+      "type": "airplane",
+      "entity": "FL320",
+      "status": "retrieved_but_used_inconsistently",
+      "evidence_ref": "tool-2-row-0",
+      "field_checks": {
+        "start": false,
+        "end": false,
+        "start_time": true,
+        "end_time": true,
+        "price": true
+      }
+    },
+    {
+      "day": 1,
+      "activity_index": 1,
+      "type": "accommodation",
+      "entity": "尚花奢酒店(南京夫子庙店)",
+      "status": "retrieved_and_used_consistently",
+      "evidence_ref": "tool-14-row-0",
+      "field_checks": {
+        "price": true,
+        "room_type": true
+      }
+    },
+    {
+      "day": 1,
+      "activity_index": 2,
+      "type": "attraction",
+      "entity": "南京总统府",
+      "status": "retrieved_and_used_consistently",
+      "evidence_ref": "tool-11-row-1",
+      "field_checks": {
+        "price": true
+      }
+    },
+    {
+      "day": 1,
+      "activity_index": 3,
+      "type": "lunch",
+      "entity": "南京总统府",
+      "status": "retrieved_and_used_consistently",
+      "evidence_ref": "tool-11-row-1",
+      "field_checks": {
+        "price": true
+      }
+    },
+    {
+      "day": 1,
+      "activity_index": 4,
+      "type": "attraction",
+      "entity": "南京博物院",
+      "status": "retrieved_and_used_consistently",
+      "evidence_ref": "tool-17-row-0",
+      "field_checks": {
+        "price": true
+      }
+    },
+    {
+      "day": 1,
+      "activity_index": 5,
+      "type": "dinner",
+      "entity": "翠贝卡好莱坞电影主题酒吧(王府园路店)",
+      "status": "retrieved_and_used_consistently",
+      "evidence_ref": "tool-6-row-0",
+      "field_checks": {
+        "price": true
+      }
+    },
+    {
+      "day": 2,
+      "activity_index": 0,
+      "type": "breakfast",
+      "entity": "尚花奢酒店(南京夫子庙店)",
+      "status": "retrieved_but_used_inconsistently",
+      "evidence_ref": "tool-14-row-0",
+      "field_checks": {
+        "price": false
+      }
+    },
+    {
+      "day": 2,
+      "activity_index": 1,
+      "type": "attraction",
+      "entity": "明孝陵",
+      "status": "retrieved_and_used_consistently",
+      "evidence_ref": "tool-11-row-0",
+      "field_checks": {
+        "price": true
+      }
+    },
+    {
+      "day": 2,
+      "activity_index": 2,
+      "type": "lunch",
+      "entity": "明孝陵",
+      "status": "retrieved_but_used_inconsistently",
+      "evidence_ref": "tool-11-row-0",
+      "field_checks": {
+        "price": false
+      }
+    },
+    {
+      "day": 2,
+      "activity_index": 3,
+      "type": "attraction",
+      "entity": "夫子庙",
+      "status": "retrieved_and_used_consistently",
+      "evidence_ref": "tool-15-row-9",
+      "field_checks": {
+        "price": true
+      }
+    },
+    {
+      "day": 2,
+      "activity_index": 4,
+      "type": "dinner",
+      "entity": "夫子庙",
+      "status": "retrieved_and_used_consistently",
+      "evidence_ref": "tool-15-row-9",
+      "field_checks": {
+        "price": true
+      }
+    },
+    {
+      "day": 3,
+      "activity_index": 0,
+      "type": "breakfast",
+      "entity": "尚花奢酒店(南京夫子庙店)",
+      "status": "retrieved_but_used_inconsistently",
+      "evidence_ref": "tool-14-row-0",
+      "field_checks": {
+        "price": false
+      }
+    },
+    {
+      "day": 3,
+      "activity_index": 1,
+      "type": "attraction",
+      "entity": "南京总统府",
+      "status": "retrieved_and_used_consistently",
+      "evidence_ref": "tool-11-row-1",
+      "field_checks": {
+        "price": true
+      }
+    },
+    {
+      "day": 3,
+      "activity_index": 2,
+      "type": "lunch",
+      "entity": "南京总统府",
+      "status": "retrieved_and_used_consistently",
+      "evidence_ref": "tool-11-row-1",
+      "field_checks": {
+        "price": true
+      }
+    },
+    {
+      "day": 3,
+      "activity_index": 3,
+      "type": "airplane",
+      "entity": "FL675",
+      "status": "retrieved_but_used_inconsistently",
+      "evidence_ref": "tool-9-row-5",
+      "field_checks": {
+        "start": false,
+        "end": false,
+        "start_time": true,
+        "end_time": true,
+        "price": true
+      }
+    }
+  ],
+  "transports": [
+    {
+      "day": 1,
+      "activity_index": 1,
+      "transport_index": 0,
+      "start": "南京禄口国际机场",
+      "end": "禄口机场-地铁站",
+      "mode": "walk",
+      "status": "retrieved_and_used_consistently",
+      "evidence_ref": "tool-20-row-0",
+      "field_checks": {
+        "start_time": true,
+        "end_time": true,
+        "cost": true,
+        "distance": true
+      }
+    },
+    {
+      "day": 1,
+      "activity_index": 1,
+      "transport_index": 1,
+      "start": "禄口机场-地铁站",
+      "end": "张府园-地铁站",
+      "mode": "metro",
+      "status": "retrieved_and_used_consistently",
+      "evidence_ref": "tool-25-row-1",
+      "field_checks": {
+        "start_time": true,
+        "end_time": true,
+        "cost": true,
+        "distance": true
+      }
+    },
+    {
+      "day": 1,
+      "activity_index": 1,
+      "transport_index": 2,
+      "start": "张府园-地铁站",
+      "end": "尚花奢酒店(南京夫子庙店)",
+      "mode": "walk",
+      "status": "retrieved_and_used_consistently",
+      "evidence_ref": "tool-25-row-2",
+      "field_checks": {
+        "start_time": true,
+        "end_time": true,
+        "cost": true,
+        "distance": true
+      }
+    },
+    {
+      "day": 1,
+      "activity_index": 2,
+      "transport_index": 0,
+      "start": "尚花奢酒店(南京夫子庙店)",
+      "end": "张府园-地铁站",
+      "mode": "walk",
+      "status": "retrieved_but_used_inconsistently",
+      "evidence_ref": "tool-28-row-0",
+      "field_checks": {
+        "start_time": false,
+        "end_time": false,
+        "cost": true,
+        "distance": true
+      }
+    },
+    {
+      "day": 1,
+      "activity_index": 2,
+      "transport_index": 1,
+      "start": "张府园-地铁站",
+      "end": "浮桥-地铁站",
+      "mode": "metro",
+      "status": "retrieved_but_used_inconsistently",
+      "evidence_ref": "tool-28-row-1",
+      "field_checks": {
+        "start_time": false,
+        "end_time": false,
+        "cost": true,
+        "distance": true
+      }
+    },
+    {
+      "day": 1,
+      "activity_index": 2,
+      "transport_index": 2,
+      "start": "浮桥-地铁站",
+      "end": "南京总统府",
+      "mode": "walk",
+      "status": "retrieved_but_used_inconsistently",
+      "evidence_ref": "tool-22-row-2",
+      "field_checks": {
+        "start_time": false,
+        "end_time": false,
+        "cost": true,
+        "distance": true
+      }
+    },
+    {
+      "day": 1,
+      "activity_index": 4,
+      "transport_index": 0,
+      "start": "南京总统府",
+      "end": "浮桥-地铁站",
+      "mode": "walk",
+      "status": "retrieved_and_used_consistently",
+      "evidence_ref": "tool-23-row-0",
+      "field_checks": {
+        "start_time": true,
+        "end_time": true,
+        "cost": true,
+        "distance": true
+      }
+    },
+    {
+      "day": 1,
+      "activity_index": 4,
+      "transport_index": 1,
+      "start": "浮桥-地铁站",
+      "end": "苜蓿园-地铁站",
+      "mode": "metro",
+      "status": "retrieved_and_used_consistently",
+      "evidence_ref": "tool-23-row-1",
+      "field_checks": {
+        "start_time": true,
+        "end_time": true,
+        "cost": true,
+        "distance": true
+      }
+    },
+    {
+      "day": 1,
+      "activity_index": 4,
+      "transport_index": 2,
+      "start": "苜蓿园-地铁站",
+      "end": "南京博物院",
+      "mode": "walk",
+      "status": "retrieved_and_used_consistently",
+      "evidence_ref": "tool-23-row-2",
+      "field_checks": {
+        "start_time": true,
+        "end_time": true,
+        "cost": true,
+        "distance": true
+      }
+    },
+    {
+      "day": 1,
+      "activity_index": 5,
+      "transport_index": 0,
+      "start": "南京博物院",
+      "end": "苜蓿园-地铁站",
+      "mode": "walk",
+      "status": "retrieved_and_used_consistently",
+      "evidence_ref": "tool-27-row-0",
+      "field_checks": {
+        "start_time": true,
+        "end_time": true,
+        "cost": true,
+        "distance": true
+      }
+    },
+    {
+      "day": 1,
+      "activity_index": 5,
+      "transport_index": 1,
+      "start": "苜蓿园-地铁站",
+      "end": "夫子庙-地铁站",
+      "mode": "metro",
+      "status": "retrieved_and_used_consistently",
+      "evidence_ref": "tool-27-row-1",
+      "field_checks": {
+        "start_time": true,
+        "end_time": true,
+        "cost": true,
+        "distance": true
+      }
+    },
+    {
+      "day": 1,
+      "activity_index": 5,
+      "transport_index": 2,
+      "start": "夫子庙-地铁站",
+      "end": "夫子庙",
+      "mode": "walk",
+      "status": "retrieved_but_used_inconsistently",
+      "evidence_ref": "tool-20-row-2",
+      "field_checks": {
+        "start_time": false,
+        "end_time": false,
+        "cost": true,
+        "distance": true
+      }
+    },
+    {
+      "day": 1,
+      "activity_index": 5,
+      "transport_index": 3,
+      "start": "夫子庙",
+      "end": "翠贝卡好莱坞电影主题酒吧(王府园路店)",
+      "mode": "walk",
+      "status": "retrieved_and_used_consistently",
+      "evidence_ref": "tool-21-row-0",
+      "field_checks": {
+        "start_time": true,
+        "end_time": true,
+        "cost": true,
+        "distance": true
+      }
+    },
+    {
+      "day": 2,
+      "activity_index": 1,
+      "transport_index": 0,
+      "start": "尚花奢酒店(南京夫子庙店)",
+      "end": "张府园-地铁站",
+      "mode": "walk",
+      "status": "retrieved_but_used_inconsistently",
+      "evidence_ref": "tool-28-row-0",
+      "field_checks": {
+        "start_time": false,
+        "end_time": false,
+        "cost": true,
+        "distance": true
+      }
+    },
+    {
+      "day": 2,
+      "activity_index": 1,
+      "transport_index": 1,
+      "start": "张府园-地铁站",
+      "end": "苜蓿园-地铁站",
+      "mode": "metro",
+      "status": "not_retrieved_or_fabricated",
+      "evidence_ref": null,
+      "field_checks": {}
+    },
+    {
+      "day": 2,
+      "activity_index": 1,
+      "transport_index": 2,
+      "start": "苜蓿园-地铁站",
+      "end": "明孝陵",
+      "mode": "walk",
+      "status": "retrieved_but_used_inconsistently",
+      "evidence_ref": "tool-29-row-2",
+      "field_checks": {
+        "start_time": false,
+        "end_time": false,
+        "cost": true,
+        "distance": true
+      }
+    },
+    {
+      "day": 2,
+      "activity_index": 3,
+      "transport_index": 0,
+      "start": "明孝陵",
+      "end": "苜蓿园-地铁站",
+      "mode": "walk",
+      "status": "retrieved_but_used_inconsistently",
+      "evidence_ref": "tool-30-row-0",
+      "field_checks": {
+        "start_time": false,
+        "end_time": false,
+        "cost": true,
+        "distance": true
+      }
+    },
+    {
+      "day": 2,
+      "activity_index": 3,
+      "transport_index": 1,
+      "start": "苜蓿园-地铁站",
+      "end": "夫子庙-地铁站",
+      "mode": "metro",
+      "status": "retrieved_but_used_inconsistently",
+      "evidence_ref": "tool-27-row-1",
+      "field_checks": {
+        "start_time": false,
+        "end_time": false,
+        "cost": true,
+        "distance": true
+      }
+    },
+    {
+      "day": 2,
+      "activity_index": 3,
+      "transport_index": 2,
+      "start": "夫子庙-地铁站",
+      "end": "夫子庙",
+      "mode": "walk",
+      "status": "retrieved_but_used_inconsistently",
+      "evidence_ref": "tool-20-row-2",
+      "field_checks": {
+        "start_time": false,
+        "end_time": false,
+        "cost": true,
+        "distance": true
+      }
+    },
+    {
+      "day": 3,
+      "activity_index": 1,
+      "transport_index": 0,
+      "start": "尚花奢酒店(南京夫子庙店)",
+      "end": "张府园-地铁站",
+      "mode": "walk",
+      "status": "retrieved_but_used_inconsistently",
+      "evidence_ref": "tool-28-row-0",
+      "field_checks": {
+        "start_time": false,
+        "end_time": false,
+        "cost": true,
+        "distance": true
+      }
+    },
+    {
+      "day": 3,
+      "activity_index": 1,
+      "transport_index": 1,
+      "start": "张府园-地铁站",
+      "end": "浮桥-地铁站",
+      "mode": "metro",
+      "status": "retrieved_but_used_inconsistently",
+      "evidence_ref": "tool-28-row-1",
+      "field_checks": {
+        "start_time": false,
+        "end_time": false,
+        "cost": true,
+        "distance": true
+      }
+    },
+    {
+      "day": 3,
+      "activity_index": 1,
+      "transport_index": 2,
+      "start": "浮桥-地铁站",
+      "end": "南京总统府",
+      "mode": "walk",
+      "status": "retrieved_but_used_inconsistently",
+      "evidence_ref": "tool-22-row-2",
+      "field_checks": {
+        "start_time": false,
+        "end_time": false,
+        "cost": true,
+        "distance": true
+      }
+    },
+    {
+      "day": 3,
+      "activity_index": 3,
+      "transport_index": 0,
+      "start": "夫子庙",
+      "end": "夫子庙-地铁站",
+      "mode": "walk",
+      "status": "retrieved_but_used_inconsistently",
+      "evidence_ref": "tool-22-row-0",
+      "field_checks": {
+        "start_time": false,
+        "end_time": false,
+        "cost": true,
+        "distance": true
+      }
+    },
+    {
+      "day": 3,
+      "activity_index": 3,
+      "transport_index": 1,
+      "start": "夫子庙-地铁站",
+      "end": "禄口机场-地铁站",
+      "mode": "metro",
+      "status": "retrieved_and_used_consistently",
+      "evidence_ref": "tool-24-row-1",
+      "field_checks": {
+        "start_time": true,
+        "end_time": true,
+        "cost": true,
+        "distance": true
+      }
+    },
+    {
+      "day": 3,
+      "activity_index": 3,
+      "transport_index": 2,
+      "start": "禄口机场-地铁站",
+      "end": "南京禄口国际机场",
+      "mode": "walk",
+      "status": "retrieved_and_used_consistently",
+      "evidence_ref": "tool-24-row-2",
+      "field_checks": {
+        "start_time": true,
+        "end_time": true,
+        "cost": true,
+        "distance": true
+      }
+    }
+  ]
+}

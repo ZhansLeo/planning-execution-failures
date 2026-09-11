@@ -1,0 +1,347 @@
+{
+  "baseline": "B",
+  "sample_key": "medium:e20241028161327496043",
+  "run_id": "ct-b-smoke-20260908T080546Z-e20241028161327496043",
+  "split": "medium",
+  "uid": "e20241028161327496043",
+  "termination": "finalized_response",
+  "model_calls": 11,
+  "tool_calls": 22,
+  "total_tokens": 194477,
+  "latency_seconds": 99.46152130002156,
+  "final_response": true,
+  "schema_delivery": true,
+  "environment_pass": false,
+  "logical_pass": false,
+  "all_pass": false,
+  "schema_errors": [],
+  "planner_flags": [],
+  "observed_row_count": 117,
+  "activity_count": 17,
+  "activity_status_counts": {
+    "retrieved_and_used_consistently": 17
+  },
+  "activity_grounding_micro": 1.0,
+  "activity_consistency_micro": 1.0,
+  "transport_count": 7,
+  "transport_status_counts": {
+    "retrieved_and_used_consistently": 7
+  },
+  "transport_grounding_micro": 1.0,
+  "fully_grounded_plan": true,
+  "any_observation_delivery": true,
+  "primary_failure": "execution_consistency_or_constraint_failure",
+  "activities": [
+    {
+      "day": 1,
+      "activity_index": 0,
+      "type": "train",
+      "entity": "G1554",
+      "status": "retrieved_and_used_consistently",
+      "evidence_ref": "tool-1-row-0",
+      "field_checks": {
+        "start": true,
+        "end": true,
+        "start_time": true,
+        "end_time": true,
+        "price": true
+      }
+    },
+    {
+      "day": 1,
+      "activity_index": 1,
+      "type": "accommodation",
+      "entity": "江苏饭店",
+      "status": "retrieved_and_used_consistently",
+      "evidence_ref": "tool-9-row-8",
+      "field_checks": {
+        "price": true,
+        "room_type": true
+      }
+    },
+    {
+      "day": 1,
+      "activity_index": 2,
+      "type": "attraction",
+      "entity": "夫子庙",
+      "status": "retrieved_and_used_consistently",
+      "evidence_ref": "tool-5-row-0",
+      "field_checks": {
+        "price": true
+      }
+    },
+    {
+      "day": 1,
+      "activity_index": 3,
+      "type": "dinner",
+      "entity": "南京大牌档(夫子庙平江府店)",
+      "status": "retrieved_and_used_consistently",
+      "evidence_ref": "tool-11-row-4",
+      "field_checks": {
+        "price": true
+      }
+    },
+    {
+      "day": 1,
+      "activity_index": 4,
+      "type": "attraction",
+      "entity": "夫子庙秦淮风光带",
+      "status": "retrieved_and_used_consistently",
+      "evidence_ref": "tool-5-row-1",
+      "field_checks": {
+        "price": true
+      }
+    },
+    {
+      "day": 2,
+      "activity_index": 0,
+      "type": "breakfast",
+      "entity": "清真·金同記 JinTongJi(夫子庙站店)",
+      "status": "retrieved_and_used_consistently",
+      "evidence_ref": "tool-11-row-0",
+      "field_checks": {
+        "price": true
+      }
+    },
+    {
+      "day": 2,
+      "activity_index": 1,
+      "type": "attraction",
+      "entity": "夫子庙大成殿",
+      "status": "retrieved_and_used_consistently",
+      "evidence_ref": "tool-5-row-2",
+      "field_checks": {
+        "price": true
+      }
+    },
+    {
+      "day": 2,
+      "activity_index": 2,
+      "type": "attraction",
+      "entity": "乌衣巷",
+      "status": "retrieved_and_used_consistently",
+      "evidence_ref": "tool-13-row-2",
+      "field_checks": {
+        "price": true
+      }
+    },
+    {
+      "day": 2,
+      "activity_index": 3,
+      "type": "lunch",
+      "entity": "鲁氏汤包王(长白街店)",
+      "status": "retrieved_and_used_consistently",
+      "evidence_ref": "tool-11-row-1",
+      "field_checks": {
+        "price": true
+      }
+    },
+    {
+      "day": 2,
+      "activity_index": 4,
+      "type": "attraction",
+      "entity": "中国科举博物馆(江南贡院)",
+      "status": "retrieved_and_used_consistently",
+      "evidence_ref": "tool-8-row-9",
+      "field_checks": {
+        "price": true
+      }
+    },
+    {
+      "day": 2,
+      "activity_index": 5,
+      "type": "dinner",
+      "entity": "点都德(夫子庙店)",
+      "status": "retrieved_and_used_consistently",
+      "evidence_ref": "tool-11-row-3",
+      "field_checks": {
+        "price": true
+      }
+    },
+    {
+      "day": 2,
+      "activity_index": 6,
+      "type": "attraction",
+      "entity": "南京夫子庙步行街",
+      "status": "retrieved_and_used_consistently",
+      "evidence_ref": "tool-5-row-3",
+      "field_checks": {
+        "price": true
+      }
+    },
+    {
+      "day": 3,
+      "activity_index": 0,
+      "type": "breakfast",
+      "entity": "清真·莲湖糕团店(贡院西街店)",
+      "status": "retrieved_and_used_consistently",
+      "evidence_ref": "tool-11-row-9",
+      "field_checks": {
+        "price": true
+      }
+    },
+    {
+      "day": 3,
+      "activity_index": 1,
+      "type": "attraction",
+      "entity": "老门东历史街区",
+      "status": "retrieved_and_used_consistently",
+      "evidence_ref": "tool-14-row-9",
+      "field_checks": {
+        "price": true
+      }
+    },
+    {
+      "day": 3,
+      "activity_index": 2,
+      "type": "lunch",
+      "entity": "电台巷火锅(夫子庙直营店)",
+      "status": "retrieved_and_used_consistently",
+      "evidence_ref": "tool-11-row-6",
+      "field_checks": {
+        "price": true
+      }
+    },
+    {
+      "day": 3,
+      "activity_index": 3,
+      "type": "accommodation",
+      "entity": "江苏饭店",
+      "status": "retrieved_and_used_consistently",
+      "evidence_ref": "tool-9-row-8",
+      "field_checks": {
+        "price": true,
+        "room_type": true
+      }
+    },
+    {
+      "day": 3,
+      "activity_index": 4,
+      "type": "train",
+      "entity": "G1553",
+      "status": "retrieved_and_used_consistently",
+      "evidence_ref": "tool-10-row-2",
+      "field_checks": {
+        "start": true,
+        "end": true,
+        "start_time": true,
+        "end_time": true,
+        "price": true
+      }
+    }
+  ],
+  "transports": [
+    {
+      "day": 1,
+      "activity_index": 1,
+      "transport_index": 0,
+      "start": "南京南站",
+      "end": "南京南站-地铁站",
+      "mode": "walk",
+      "status": "retrieved_and_used_consistently",
+      "evidence_ref": "tool-16-row-0",
+      "field_checks": {
+        "start_time": true,
+        "end_time": true,
+        "cost": true,
+        "distance": true
+      }
+    },
+    {
+      "day": 1,
+      "activity_index": 1,
+      "transport_index": 1,
+      "start": "南京南站-地铁站",
+      "end": "夫子庙-地铁站",
+      "mode": "metro",
+      "status": "retrieved_and_used_consistently",
+      "evidence_ref": "tool-16-row-1",
+      "field_checks": {
+        "start_time": true,
+        "end_time": true,
+        "cost": true,
+        "distance": true
+      }
+    },
+    {
+      "day": 1,
+      "activity_index": 1,
+      "transport_index": 2,
+      "start": "夫子庙-地铁站",
+      "end": "夫子庙",
+      "mode": "walk",
+      "status": "retrieved_and_used_consistently",
+      "evidence_ref": "tool-16-row-2",
+      "field_checks": {
+        "start_time": true,
+        "end_time": true,
+        "cost": true,
+        "distance": true
+      }
+    },
+    {
+      "day": 1,
+      "activity_index": 1,
+      "transport_index": 3,
+      "start": "夫子庙",
+      "end": "江苏饭店",
+      "mode": "walk",
+      "status": "retrieved_and_used_consistently",
+      "evidence_ref": "tool-20-row-0",
+      "field_checks": {
+        "start_time": true,
+        "end_time": true,
+        "cost": true,
+        "distance": true
+      }
+    },
+    {
+      "day": 3,
+      "activity_index": 4,
+      "transport_index": 0,
+      "start": "江苏饭店",
+      "end": "常府街-地铁站",
+      "mode": "walk",
+      "status": "retrieved_and_used_consistently",
+      "evidence_ref": "tool-21-row-0",
+      "field_checks": {
+        "start_time": true,
+        "end_time": true,
+        "cost": true,
+        "distance": true
+      }
+    },
+    {
+      "day": 3,
+      "activity_index": 4,
+      "transport_index": 1,
+      "start": "常府街-地铁站",
+      "end": "南京南站-地铁站",
+      "mode": "metro",
+      "status": "retrieved_and_used_consistently",
+      "evidence_ref": "tool-21-row-1",
+      "field_checks": {
+        "start_time": true,
+        "end_time": true,
+        "cost": true,
+        "distance": true
+      }
+    },
+    {
+      "day": 3,
+      "activity_index": 4,
+      "transport_index": 2,
+      "start": "南京南站-地铁站",
+      "end": "南京南站",
+      "mode": "walk",
+      "status": "retrieved_and_used_consistently",
+      "evidence_ref": "tool-21-row-2",
+      "field_checks": {
+        "start_time": true,
+        "end_time": true,
+        "cost": true,
+        "distance": true
+      }
+    }
+  ]
+}

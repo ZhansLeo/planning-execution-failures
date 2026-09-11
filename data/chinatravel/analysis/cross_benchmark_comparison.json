@@ -1,0 +1,42 @@
+{
+  "comparison_scope": {
+    "TravelPlanner": "180 validation samples, official evaluator",
+    "ChinaTravel": "12-query paired pilot, official evaluator"
+  },
+  "not_directly_comparable": [
+    "absolute metric values",
+    "evaluator semantics",
+    "sample size",
+    "task distribution"
+  ],
+  "travelplanner_b_to_c": {
+    "delivery_delta_pp": 5.000000000000004,
+    "final_pass_delta_pp": 0.5555555555555564,
+    "tokens_per_sample_delta_percent": -2.8919279092111783,
+    "tool_calls_delta_percent": -8.235630540463246
+  },
+  "chinatravel_b_to_c": {
+    "final_response_delta_pp": 25.000000000000007,
+    "schema_delivery_delta_pp": 0.0,
+    "all_pass_delta_pp": 0.0,
+    "overall_tokens_delta_percent": -14.235514381785809,
+    "overall_tool_calls_delta_percent": -18.338108882521485,
+    "tool_positive_sensitivity": {
+      "tokens_delta_percent": 2.92,
+      "tool_calls_delta_percent": -1.38,
+      "latency_delta_percent": 11.75
+    }
+  },
+  "shared_findings": [
+    "Explicit Planner modestly improves agent-control/termination but does not materially improve final correctness.",
+    "Blueprint creation does not guarantee Executor adherence.",
+    "Information acquisition and evidence utilization remain bottlenecks after adding Planner.",
+    "Efficiency conclusions are sensitive to failure behavior and must not be inferred from aggregate token means alone."
+  ],
+  "chinatravel_specific_findings": [
+    "Natural-language constraint representation adds source fidelity, hard/soft classification, and entity-injection failures.",
+    "JSON-mode blank responses plus the no-tool termination rule can create evidence-free false delivery.",
+    "Output-schema failures exactly offset additional final responses in the 12-query pilot."
+  ],
+  "conclusion": "Across both benchmarks, Planner is better supported as a control/representation aid than as a correctness mechanism. ChinaTravel adds natural-language and protocol-grounding failure layers, but n=12 is not sufficient for strong prevalence claims."
+}

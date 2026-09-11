@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#FAFAF7"/>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#252525}.title{font-size:36px;font-weight:700}.sub{font-size:19px;fill:#666}.lab{font-size:18px}.small{font-size:15px}.val{font-size:17px;font-weight:700}</style>
+<text x="80" y="70" class="title">交付率与最终通过率</text>
+<text x="80" y="105" class="sub">A 高交付但约束通过有限；B/C/D 的 Agent 控制成为新瓶颈</text>
+<line x1="130" y1="780.0" x2="1520" y2="780.0" stroke="#DDD"/>
+<text x="115" y="786.0" text-anchor="end" class="small">0%</text>
+<line x1="130" y1="658.0" x2="1520" y2="658.0" stroke="#DDD"/>
+<text x="115" y="664.0" text-anchor="end" class="small">21%</text>
+<line x1="130" y1="536.0" x2="1520" y2="536.0" stroke="#DDD"/>
+<text x="115" y="542.0" text-anchor="end" class="small">43%</text>
+<line x1="130" y1="414.0" x2="1520" y2="414.0" stroke="#DDD"/>
+<text x="115" y="420.0" text-anchor="end" class="small">64%</text>
+<line x1="130" y1="292.0" x2="1520" y2="292.0" stroke="#DDD"/>
+<text x="115" y="298.0" text-anchor="end" class="small">85%</text>
+<line x1="130" y1="170.0" x2="1520" y2="170.0" stroke="#DDD"/>
+<text x="115" y="176.0" text-anchor="end" class="small">106%</text>
+<rect x="199.5" y="235.4" width="114.0" height="544.6" rx="4" fill="#4477AA"/>
+<text x="256.5" y="227.4" text-anchor="middle" class="small">95.0%</text>
+<rect x="894.5" y="700.4" width="114.0" height="79.6" rx="4" fill="#4477AA"/>
+<text x="951.5" y="692.4" text-anchor="middle" class="small">13.9%</text>
+<rect x="338.5" y="579.3" width="114.0" height="200.7" rx="4" fill="#EE6677"/>
+<text x="395.5" y="571.3" text-anchor="middle" class="small">35.0%</text>
+<rect x="1033.5" y="690.8" width="114.0" height="89.2" rx="4" fill="#EE6677"/>
+<text x="1090.5" y="682.8" text-anchor="middle" class="small">15.6%</text>
+<rect x="477.5" y="550.7" width="114.0" height="229.3" rx="4" fill="#228833"/>
+<text x="534.5" y="542.7" text-anchor="middle" class="small">40.0%</text>
+<rect x="1172.5" y="687.6" width="114.0" height="92.4" rx="4" fill="#228833"/>
+<text x="1229.5" y="679.6" text-anchor="middle" class="small">16.1%</text>
+<rect x="616.5" y="541.1" width="114.0" height="238.9" rx="4" fill="#CCBB44"/>
+<text x="673.5" y="533.1" text-anchor="middle" class="small">41.7%</text>
+<rect x="1311.5" y="687.6" width="114.0" height="92.4" rx="4" fill="#CCBB44"/>
+<text x="1368.5" y="679.6" text-anchor="middle" class="small">16.1%</text>
+<text x="477.5" y="818" text-anchor="middle" class="lab">Delivery</text>
+<text x="1172.5" y="818" text-anchor="middle" class="lab">Final Pass</text>
+<rect x="130" y="830" width="24" height="16" fill="#4477AA"/>
+<text x="162" y="845" class="lab">A</text>
+<rect x="320" y="830" width="24" height="16" fill="#EE6677"/>
+<text x="352" y="845" class="lab">B</text>
+<rect x="510" y="830" width="24" height="16" fill="#228833"/>
+<text x="542" y="845" class="lab">C</text>
+<rect x="700" y="830" width="24" height="16" fill="#CCBB44"/>
+<text x="732" y="845" class="lab">D</text>
+</svg>

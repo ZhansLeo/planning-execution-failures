@@ -1,0 +1,13 @@
+{
+  "returncode": 0,
+  "scores": {
+    "Delivery Rate": 0.41666666666666674,
+    "Commonsense Constraint Micro Pass Rate": 0.37916666666666665,
+    "Commonsense Constraint Macro Pass Rate": 0.2222222222222222,
+    "Hard Constraint Micro Pass Rate": 0.3261904761904762,
+    "Hard Constraint Macro Pass Rate": 0.25555555555555554,
+    "Final Pass Rate": 0.1611111111111111
+  },
+  "cross_check_pass": true,
+  "differences": {}
+}

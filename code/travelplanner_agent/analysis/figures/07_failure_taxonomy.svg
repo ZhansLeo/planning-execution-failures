@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#FAFAF7"/>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#252525}.title{font-size:36px;font-weight:700}.sub{font-size:19px;fill:#666}.lab{font-size:18px}.small{font-size:15px}.val{font-size:17px;font-weight:700}</style>
+<text x="80" y="70" class="title">统一 Failure Taxonomy</text>
+<text x="80" y="105" class="sub">原始类别保留在 CSV；堆叠图只比较统一主类别</text>
+<text x="190" y="275" class="title">B</text>
+<rect x="260.0" y="230" width="767.0" height="75" fill="#999999"><title>delivery/agent_control: 117</title></rect>
+<text x="643.5" y="277" text-anchor="middle" class="val" fill="white">117</text>
+<rect x="1027.0" y="230" width="6.6" height="75" fill="#D55E00"><title>tool_execution/acquisition: 1</title></rect>
+<rect x="1033.6" y="230" width="104.9" height="75" fill="#E69F00"><title>evidence_coverage: 16</title></rect>
+<text x="1086.0" y="277" text-anchor="middle" class="val" fill="white">16</text>
+<rect x="1138.4" y="230" width="32.8" height="75" fill="#CC79A7"><title>grounding/utilization: 5</title></rect>
+<rect x="1171.2" y="230" width="32.8" height="75" fill="#56B4E9"><title>route/transportation: 5</title></rect>
+<rect x="1204.0" y="230" width="19.7" height="75" fill="#0072B2"><title>budget/minimum_nights: 3</title></rect>
+<rect x="1223.7" y="230" width="32.8" height="75" fill="#009E73"><title>diversity/preference/room_rule: 5</title></rect>
+<rect x="1256.4" y="230" width="183.6" height="75" fill="#2E8B57"><title>success: 28</title></rect>
+<text x="1348.2" y="277" text-anchor="middle" class="val" fill="white">28</text>
+<text x="190" y="425" class="title">C</text>
+<rect x="260.0" y="380" width="708.0" height="75" fill="#999999"><title>delivery/agent_control: 108</title></rect>
+<text x="614.0" y="427" text-anchor="middle" class="val" fill="white">108</text>
+<rect x="968.0" y="380" width="190.1" height="75" fill="#E69F00"><title>evidence_coverage: 29</title></rect>
+<text x="1063.1" y="427" text-anchor="middle" class="val" fill="white">29</text>
+<rect x="1158.1" y="380" width="13.1" height="75" fill="#CC79A7"><title>grounding/utilization: 2</title></rect>
+<rect x="1171.2" y="380" width="19.7" height="75" fill="#56B4E9"><title>route/transportation: 3</title></rect>
+<rect x="1190.9" y="380" width="39.3" height="75" fill="#0072B2"><title>budget/minimum_nights: 6</title></rect>
+<rect x="1230.2" y="380" width="19.7" height="75" fill="#009E73"><title>diversity/preference/room_rule: 3</title></rect>
+<rect x="1249.9" y="380" width="190.1" height="75" fill="#2E8B57"><title>success: 29</title></rect>
+<text x="1344.9" y="427" text-anchor="middle" class="val" fill="white">29</text>
+<text x="190" y="575" class="title">D</text>
+<rect x="260.0" y="530" width="688.3" height="75" fill="#999999"><title>delivery/agent_control: 105</title></rect>
+<text x="604.2" y="577" text-anchor="middle" class="val" fill="white">105</text>
+<rect x="948.3" y="530" width="301.6" height="75" fill="#7A5195"><title>verifier/replan: 46</title></rect>
+<text x="1099.1" y="577" text-anchor="middle" class="val" fill="white">46</text>
+<rect x="1249.9" y="530" width="190.1" height="75" fill="#2E8B57"><title>success: 29</title></rect>
+<text x="1344.9" y="577" text-anchor="middle" class="val" fill="white">29</text>
+<rect x="110" y="720" width="24" height="18" fill="#999999"/>
+<text x="144" y="736" class="small">delivery/agent_control</text>
+<rect x="610" y="720" width="24" height="18" fill="#D55E00"/>
+<text x="644" y="736" class="small">tool_execution/acquisition</text>
+<rect x="1110" y="720" width="24" height="18" fill="#E69F00"/>
+<text x="1144" y="736" class="small">evidence_coverage</text>
+<rect x="110" y="768" width="24" height="18" fill="#CC79A7"/>
+<text x="144" y="784" class="small">grounding/utilization</text>
+<rect x="610" y="768" width="24" height="18" fill="#56B4E9"/>
+<text x="644" y="784" class="small">route/transportation</text>
+<rect x="1110" y="768" width="24" height="18" fill="#0072B2"/>
+<text x="1144" y="784" class="small">budget/minimum_nights</text>
+<rect x="110" y="816" width="24" height="18" fill="#009E73"/>
+<text x="144" y="832" class="small">diversity/preference/room_rule</text>
+<rect x="610" y="816" width="24" height="18" fill="#7A5195"/>
+<text x="644" y="832" class="small">verifier/replan</text>
+<rect x="1110" y="816" width="24" height="18" fill="#2E8B57"/>
+<text x="1144" y="832" class="small">success</text>
+</svg>

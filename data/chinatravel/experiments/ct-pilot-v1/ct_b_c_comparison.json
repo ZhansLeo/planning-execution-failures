@@ -1,0 +1,67 @@
+{
+  "comparison": "CT-B_query_only_react -> CT-C_structured_planner_react",
+  "paired_n": 12,
+  "samples_identical": true,
+  "transitions": {
+    "delivery": {
+      "fail_to_fail": 6,
+      "fail_to_pass": 2,
+      "pass_to_fail": 2,
+      "pass_to_pass": 2
+    },
+    "all_pass": {
+      "fail_to_fail": 12,
+      "fail_to_pass": 0,
+      "pass_to_fail": 0,
+      "pass_to_pass": 0
+    }
+  },
+  "delivery_delta_bootstrap_95ci": {
+    "estimate": 0.0,
+    "low": -0.3333333333333333,
+    "high": 0.3333333333333333
+  },
+  "all_pass_delta_bootstrap_95ci": {
+    "estimate": 0.0,
+    "low": 0.0,
+    "high": 0.0
+  },
+  "mean_cost_deltas_bootstrap_95ci": {
+    "total_tokens": {
+      "estimate": -32732.833333333332,
+      "low": -92001.16666666667,
+      "high": 18921.083333333332
+    },
+    "tool_calls": {
+      "estimate": -5.333333333333333,
+      "low": -12.5,
+      "high": 0.25
+    },
+    "latency_seconds": {
+      "estimate": -4.877946558345381,
+      "low": -25.754370250006712,
+      "high": 15.666755108327683
+    }
+  },
+  "token_cost_per_net_new_delivery": "not_defined",
+  "token_cost_per_net_new_all_pass": "not_defined",
+  "ct_b": {
+    "delivery_rate": 0.3333333333333333,
+    "environment_pass_rate": 0.0,
+    "logical_pass_rate": 0.0,
+    "all_pass_rate": 0.0,
+    "mean_tokens": 229937.83333333334,
+    "mean_tool_calls": 29.083333333333332,
+    "mean_latency_seconds": 70.55305216666602
+  },
+  "ct_c": {
+    "delivery_rate": 0.3333333333333333,
+    "environment_pass_rate": 0.0,
+    "logical_pass_rate": 0.08333333333333333,
+    "all_pass_rate": 0.0,
+    "mean_tokens": 197205.0,
+    "mean_tool_calls": 23.75,
+    "mean_latency_seconds": 65.67510560832064
+  },
+  "interpretation_limit": "n=12; descriptive paired evidence only. CT-C changes only the added pre-tool structured Planner."
+}

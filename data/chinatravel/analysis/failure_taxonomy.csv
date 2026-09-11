@@ -1,0 +1,8 @@
+﻿baseline,category,count,rate
+B,agent_control_exhaustion,8,0.6666666666666666
+B,evidence_utilization_failure,3,0.25
+B,execution_consistency_or_constraint_failure,1,0.08333333333333333
+C,agent_control_exhaustion,5,0.4166666666666667
+C,evidence_free_false_stop,2,0.16666666666666666
+C,evidence_utilization_failure,2,0.16666666666666666
+C,output_contract_failure,3,0.25

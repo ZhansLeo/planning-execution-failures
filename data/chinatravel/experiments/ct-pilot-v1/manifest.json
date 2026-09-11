@@ -1,0 +1,78 @@
+{
+  "experiment_id": "ct-pilot-v1",
+  "purpose": "paired CT-B/CT-C cross-benchmark pilot",
+  "seed": 20260904,
+  "protocol_version": "ct-b-react-v1.0-pilot",
+  "baseline": "CT-B_query_only_react",
+  "status": "FROZEN",
+  "sample_count": 12,
+  "samples": [
+    {
+      "split": "easy",
+      "uid": "m20241028164642633824"
+    },
+    {
+      "split": "easy",
+      "uid": "m20241028164924049935"
+    },
+    {
+      "split": "easy",
+      "uid": "m20241028164800617250"
+    },
+    {
+      "split": "easy",
+      "uid": "m20241028164815894420"
+    },
+    {
+      "split": "medium",
+      "uid": "e20241028161334777418"
+    },
+    {
+      "split": "medium",
+      "uid": "e20241028161119161993"
+    },
+    {
+      "split": "medium",
+      "uid": "e20241028161327496043"
+    },
+    {
+      "split": "medium",
+      "uid": "e20241028161015707983"
+    },
+    {
+      "split": "human",
+      "uid": "h20241029143451793119"
+    },
+    {
+      "split": "human",
+      "uid": "h20241029143648613072"
+    },
+    {
+      "split": "human",
+      "uid": "h20241029143736524841"
+    },
+    {
+      "split": "human",
+      "uid": "h20241029143832205713"
+    }
+  ],
+  "excluded_development_uids": [
+    "e20241028160248698752",
+    "e20241028160251109186",
+    "e20241028160253742452"
+  ],
+  "official_commit": "0936f2727dd102ad811ed015b7bf6f7d6533f28e",
+  "output_schema_sha256": "6bd2ab0da6930e9d3593034e24b53ab7c6d345063ad4e81f4114e1afb4d5c439",
+  "tool_schema_hash": "dd525ecd0f84ab7bff8684accdb3ce178e74f1541b48bd70c3f3cb59f92b5823",
+  "max_total_tool_calls": 30,
+  "parallel_call_policy": "sequential_in_model_order",
+  "thinking_mode": "disabled",
+  "response_format": "json_object",
+  "finalization_policy": "one_same-model_no-tools-json-turn",
+  "parser": "strict-json-no-repair",
+  "oracle_fields_hidden": [
+    "hard_logic",
+    "hard_logic_nl",
+    "hard_logic_py"
+  ]
+}

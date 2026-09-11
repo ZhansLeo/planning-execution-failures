@@ -1,0 +1,56 @@
+{
+  "priority": [
+    "agent_control_exhaustion",
+    "evidence_free_false_stop",
+    "output_contract_failure",
+    "direct_fabrication_or_generic_entity",
+    "information_acquisition_missing",
+    "evidence_utilization_failure",
+    "execution_consistency_or_constraint_failure",
+    "success"
+  ],
+  "rows": [
+    {
+      "baseline": "B",
+      "category": "agent_control_exhaustion",
+      "count": 8,
+      "rate": 0.6666666666666666
+    },
+    {
+      "baseline": "B",
+      "category": "evidence_utilization_failure",
+      "count": 3,
+      "rate": 0.25
+    },
+    {
+      "baseline": "B",
+      "category": "execution_consistency_or_constraint_failure",
+      "count": 1,
+      "rate": 0.08333333333333333
+    },
+    {
+      "baseline": "C",
+      "category": "agent_control_exhaustion",
+      "count": 5,
+      "rate": 0.4166666666666667
+    },
+    {
+      "baseline": "C",
+      "category": "evidence_free_false_stop",
+      "count": 2,
+      "rate": 0.16666666666666666
+    },
+    {
+      "baseline": "C",
+      "category": "evidence_utilization_failure",
+      "count": 2,
+      "rate": 0.16666666666666666
+    },
+    {
+      "baseline": "C",
+      "category": "output_contract_failure",
+      "count": 3,
+      "rate": 0.25
+    }
+  ]
+}

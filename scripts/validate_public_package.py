@@ -47,6 +47,11 @@ def main() -> None:
         ROOT / "research" / "research_narrative.md",
         ROOT / "research" / "results_master.json",
         ROOT / "deck" / "Diagnosing_Planning_Execution_Failures.pptx",
+        ROOT / "code" / "travelplanner_agent" / "src" / "travelplanner_agent" / "baselines.py",
+        ROOT / "code" / "chinatravel_harness" / "src" / "ct_harness" / "core.py",
+        ROOT / "data" / "travelplanner" / "stage-a-full-v1" / "per_sample.json",
+        ROOT / "data" / "travelplanner" / "stage-d-full-v1" / "per_sample.json",
+        ROOT / "data" / "chinatravel" / "analysis" / "grounding_audit.json",
     ]
     if missing_files := [str(path.relative_to(ROOT)) for path in required if not path.exists()]:
         raise AssertionError(f"missing release files: {missing_files}")
@@ -62,7 +67,21 @@ def main() -> None:
             if any(pattern.search(text) for pattern in secret_patterns):
                 raise AssertionError(f"sensitive or local-path content in {path.relative_to(ROOT)}")
 
-    print(json.dumps({"status": "passed", "metric_source": "results_master.json", "taxonomy_layers": 8}, indent=2))
+    stage_counts = {}
+    for stage in "abcd":
+        path = ROOT / "data" / "travelplanner" / f"stage-{stage}-full-v1" / "per_sample.json"
+        rows = json.loads(path.read_text(encoding="utf-8"))
+        indices = sorted(int(row["idx"]) for row in rows)
+        if indices != list(range(1, 181)):
+            raise AssertionError(f"TravelPlanner stage {stage.upper()} is not a complete 1..180 set")
+        stage_counts[stage.upper()] = len(rows)
+
+    print(json.dumps({
+        "status": "passed",
+        "metric_source": "results_master.json",
+        "taxonomy_layers": 8,
+        "travelplanner_per_sample_counts": stage_counts,
+    }, indent=2))
 
 
 if __name__ == "__main__":

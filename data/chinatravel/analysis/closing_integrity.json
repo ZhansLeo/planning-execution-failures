@@ -1,0 +1,10 @@
+{
+  "paired_keys_equal": true,
+  "b_count": 12,
+  "c_count": 12,
+  "taxonomy_b_total": 12,
+  "taxonomy_c_total": 12,
+  "case_card_count": 8,
+  "model_calls_made": 0,
+  "tool_calls_made": 0
+}
